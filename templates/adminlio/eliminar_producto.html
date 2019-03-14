@@ -1,0 +1,11 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<form method="post">
+    {% csrf_token %}
+    <h3>¿Desea el registro de {{ producto.nombre_producto }}?</h3>
+    <button type="submit">Sí,eliminar</button>
+    <a href="{% url 'adminlio:listproductos' %}">Cancelar</a>
+</form>

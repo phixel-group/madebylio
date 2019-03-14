@@ -1,0 +1,92 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+ <div  class="fondo-vw-roundcorner">
+
+ </div>
+ <div id="contacto-title">{% trans 'Contact' %}</div>
+ <div id="contacto-menu">
+     <div id="mision" class="hover-menu">{% trans 'MISION' %}</div>
+     <div style="width: 4px;height: 100%;background-color: white;"></div>
+     <div id="vision" class="hover-menu">{% trans 'VISION' %}</div>
+     <div style="width: 4px;height: 100%;background-color: white;"></div>
+     <div id="quienes" class="hover-menu">{% trans 'About Us' %}</div>
+     <div style="width: 4px;height: 100%;background-color: white;"></div>
+     <div id="faqs" class="hover-menu">{% trans 'FAQ' %}</div>
+ </div>
+<div id="contacto-dashboard">
+    <div id="mision-content" class="contacto-content">
+        <p>
+            {% blocktrans %}
+                Colors like a MAGNET will catch you, for transforming a picture.
+And the best without knowing how to draw, because of that Lio will take care ...
+Creating beautiful pieces is our skill,
+So that embellish your home.
+Writing, fitting, just let go and let yourself go ...
+For the child that should never be turned off.
+
+            {% endblocktrans %}
+        </p>
+
+
+    </div>
+    <div id="vision-content" class="contacto-content">
+        <p>
+            {% blocktrans  %}
+               To roll and roll, we go to the whole world to infect.
+"Borders will not catch us. Beauty and colors will help us,"
+"To the inner child rescue, from this world that prevents us from dreaming, who said"
+"What can not be achieved ?.
+            {% endblocktrans %}
+        </p>
+
+
+    </div>
+    <div id="quienes-content" class="contacto-content">
+        <p>
+           {% blocktrans  %}
+WE ARE A BRAND WHICH PRODUCTS ARE MANUFACTURED AND PAINTED by Colombian handmade, These products were created by a plastic artist named Liliana Ortiz, who uses their own technique that give authenticity to each piece and are made in different materials to decorate any space.        {% endblocktrans %}
+        </p>
+
+    </div>
+    <div id="faqs-content" class="contacto-content">
+        {% include 'plantillas_html/form_email.html'%}
+    </div>
+</div>
+<div id="contacto-sidebar">
+    <div class="cont-redes">
+        <a class="contacto-face-logo" href="https://www.facebook.com/Made-by-Lio-157923391550724/" target="_blank">
+
+        </a>
+        <!-- texto facebook -->
+        <a class="contacto-texto-face" href="https://www.facebook.com/Made-by-Lio-157923391550724/" target="_blank">
+            Made By Lio
+        </a>
+    </div>
+    <div  class="cont-redes">
+        <a class="contacto-instagram-logo" href="https://www.instagram.com/madebylio" target="_blank">
+
+        </a>
+    <!-- texto instagram -->
+        <a class="contacto-texto-instagram" href="https://www.instagram.com/madebylio" target="_blank">
+            Made By Lio
+        </a>
+    </div>
+    <!-- logo instagram -->
+    <div  class="contact-where">
+        {% blocktrans %}
+
+            You find us in Bogota  or order your purchase in www.madebylio.com
+        {% endblocktrans %}
+
+    </div>
+    <div  class="contact-correos">
+        {% blocktrans %}
+            lio@madebylio.com
+            comercial@madebylio.com
+            Cel: 319 259 1275
+        {% endblocktrans %}
+    </div>
+</div>

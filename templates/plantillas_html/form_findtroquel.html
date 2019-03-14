@@ -1,0 +1,24 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+            <div id="cont-troquelfindform">
+
+                <div>
+                    <label for="nombre_t" >Nombre:</label>
+                    <input id="nombre_t" type="text" name="nombre_troquel" placeholder="Nombre Troquel" required>
+                    <label for="size_t">Size Troquel</label>
+                    <input id="size_t"  type="number" name="size_troquel">
+                    <label for="category-tfind">Categoría Troquel</label>
+                    <select id="category-tfind"  name="categoria_troquel">
+                        {% for x,y in choices_type.categoria_troquel.field.choices %}
+                           <option value="{{ x }}">{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <button id="find-troquel-btn" type="button" value="submit">
+                <img class="responsive-img" src="{% static 'img/boton_ok.svg' %}">
+                <p id="text-find-troquel">Buscar!</p>
+            </button>

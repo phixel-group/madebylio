@@ -1,0 +1,199 @@
+#contacto-title
+{
+    position: absolute;
+    top:8.8%;
+    left:8.8%;
+    font-size: 3em;
+    color:#f72e45;
+}
+#contacto-menu
+{
+    width: 40%;
+    height: 8%;
+    position: absolute;
+    top:20%;
+    left:10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    color:#f72e45;
+}
+#contacto-dashboard
+{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    top:30%;
+    left:10%;
+    background-color: #24A8DA;
+    border-radius: 12px;
+    color: #ffffff;
+}
+#contacto-sidebar
+{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top:30%;
+    left:60%;
+    background-color: transparent;
+    color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-content
+{
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    position: absolute;
+    display: none;
+    color: #f6f6f6;
+    font-size: 0.8em;
+    padding: 10px;
+}
+.contacto-content > p
+{
+    text-align: justify; /**/
+    width: 80%;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-size: 1.3vw;
+    font-family: shakeoffchunki;
+}
+.hover-menu
+{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1px;
+    font-size: 1em;
+    padding: 5px;
+    margin:2px;
+}
+.hover-menu:hover
+{
+    background-color: white;
+}
+#send-faq
+{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: relative;
+    text-align: center;
+    width: 7vw;
+    height: 10vh;
+}
+.send-email-text
+{
+    position: absolute;
+    top: 0;
+    left:10%;
+}
+#text-create-faq
+{
+    position: absolute;
+    left: 10%;
+    top:0;
+}
+#cont-faq-form
+{
+    background-color: transparent;
+    width: 80%;
+    position: absolute;
+    left:10%;
+    top:7%;
+    padding: 10px;
+    border-radius: 20px 0 20px 0;
+}
+#contact-table, #send-emailform
+{
+    width: 100%;
+}
+.input-contact
+{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contact-table tr,#contact-table td
+{
+    border: none;
+    color: white;
+    background-color: #f72e45;
+}
+#contact-table tr
+{
+    width: 100%;
+}
+#contact-table td
+{
+    width: 50%;
+}
+.contacto-instagram-logo
+{
+	width: 3vw;
+	height:5vh;
+	display: inline-block;
+	background-color:orange;
+	background:url('../img/png/inicio/redessociales/logoinstagram.svg');
+	background-size:100% 100%;
+	color:black;
+}
+.contacto-face-logo
+{
+	width: 3vw;
+	height:5vh;
+	display: inline-block;
+	background-color:orange;
+	background:url('../img/png/inicio/redessociales/logofacebook.svg');
+	background-size:100% 100%;
+	color:black;
+}
+.contacto-texto-face /*texto redes sociales*/
+{
+    display: inline-block;
+	background-color:transparent;
+	color:#E0225F;
+	font-size: 1.5vw;/*pendiente tam fuente relativa*/
+}
+.contacto-texto-instagram/*texto redes sociales*/
+{
+    display: inline-block;
+	background-color:transparent;
+	color:#E0225F;
+	font-size: 1.5vw;/*pendiente tam fuente relativa*/
+}
+.contact-where
+{
+    width: 80%;
+    font-size: 1.1vw;
+    color: #722e96;
+}
+.contact-correos
+{
+    width: 80%;
+    font-size: 1.1vw;
+    color: #fd243e;
+}
+.cont-redes
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}

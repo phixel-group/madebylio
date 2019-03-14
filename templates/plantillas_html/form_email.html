@@ -1,0 +1,50 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<div id="cont-faq-form">
+        <p style="color: white;font-size: 2.7vw; padding: 0;">{% trans 'Send your questions!' %}</p>
+        <form id="send-emailform"  action="" method="POST">
+            {% csrf_token %}
+
+                 {{ tformedit.non_field_errors }}
+
+                  {% for hidden_field in tformedit.hidden_fields %}
+                    {{ hidden_field.errors }}
+                    {{ hidden_field }}
+                  {% endfor %}
+                  <div id="contact-table">
+                      <div class="row-login-form">
+                           <div class="column2left">
+                                <label for="nombre_email" >{% trans 'Name' %}</label>
+                           </div>
+                           <div class="column2right">
+                               <input id="nombre_email"  class="input-contact" type="text" name="name_email" placeholder="" required>
+                           </div>
+                      </div>
+                      <div class="row-login-form">
+                          <div class="column2left">
+                            <label for="email_address" >{% trans 'Email' %}</label>
+                          </div>
+                          <div class="column2right">
+                              <input id="email_address"  class="input-contact" type="text" name="email_addr" placeholder="" required>
+                          </div>
+                      </div>
+                      <div class="row-login-form">
+                          <div class="column2left">
+                            <label for="email_message" >{% trans 'Email message:' %}</label>
+                          </div>
+                          <div class="column2right">
+                              <textarea  class="input-contact" style="resize: none;" id="email_message"  name="email_msg" required> </textarea>
+                          </div>
+                      </div>
+                  </div>
+
+            <button id="send-faq" type="submit">
+                <img style="width:100%; height: auto;position: absolute; top: 0;left: 0;" src="{% static 'img/png/productos/botones/boton_comprar.svg' %}">
+                <p class="send-email-text">{% trans 'Send!' %}</p>
+            </button>
+
+        </form>
+</div>

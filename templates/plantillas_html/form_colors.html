@@ -1,0 +1,35 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+
+
+
+
+        <form id="formcolors"  action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div id="cont-inputslabels-colorform">
+                <div>
+                    <p style="text-align: center"><span style="position: relative; font-family: shakeoff; background-color: #03f345;color: white; padding: 5px; font-size: 1.8em">GUARDAR COLOR</span></p>
+                </div>
+                <div style="background-color: #03f345;color:white;padding: 10px; font-family: shakeoff; border-radius:0 10px 0 10px;">
+                    <label for="nombre_c" >NOMBRE:</label>
+                    <input id="nombre_c" type="text" name="nombre_color" placeholder="Nombre Color" required>
+                </div>
+                <br>
+                <div style="background-color: #03f345;color:white;padding: 5px; font-family: shakeoff;border-radius:10px 0 10px 0;">
+                    <label for="file_c">FILE COLOR:</label>
+                    <input id="file_c"  type="file" name="file_color" multiple required>
+                </div>
+            </div>
+            <div id="cont-preimg-color">
+                <img id="color-previmg" class="responsive-img" src="{% static 'img/emutroquel.png' %}">
+            </div>
+            <button id="cancel-add-color" type="button" value="submit">
+                Cancelar
+            </button>
+            <button id="crear-color-btn" type="submit" value="submit">
+                Crear
+            </button>
+        </form>

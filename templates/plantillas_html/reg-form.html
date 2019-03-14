@@ -1,0 +1,85 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<form id="ajax-reg-form" method="post">
+            {% csrf_token %}
+            {% if form.errors %}
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <div class="alert alert-danger">
+                            <strong>{{ error|escape }}</strong>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+                {% for error in form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <div class="row-login-form">
+                <div class="column2left">
+                    <label for="username">
+                        {% trans "Username"%}<span class="req">*</span>
+                    </label>
+                </div>
+                <div class="column2right">
+                    <input class="inputs-login usernorepeat" type="text" required name="username" maxlength="150" id="username" autofocus>
+                </div>
+            </div>
+            <div class="row-login-form">
+                <div class="column2left">
+                    <label for="first-name">
+                        {% trans "First Name"%}<span class="req">*</span>
+                    </label>
+                </div>
+                <div class="column2right">
+                    <input class="inputs-login" id="first-name" type="text" required autocomplete="off" name="first_name">
+                </div>
+            </div>
+            <div class="row-login-form">
+                <div class="column2left">
+                    <label for="last_name">{% trans "Last Name"%} <span class="req">*</span>
+                    </label>
+                </div>
+                <div class="column2right">
+                    <input id="last_name" class="inputs-login" type="text" required autocomplete="off" name="last_name">
+                </div>
+            </div>
+
+            <div class="row-login-form">
+                <div class="column2left">
+                     <label for="email">
+                        {% trans "email"%} <span class="req">*</span>
+                     </label>
+                </div>
+                <div class="column2right">
+                    <input id="email" class="inputs-login" type="email" required autocomplete="off" name="email">
+                </div>
+            </div>
+            <div class="row-login-form">
+                <div class="column2left">
+                    <label for="password">
+                        {% trans "password"%}<span class="req">*</span>
+                    </label>
+                </div>
+                <div class="column2right">
+                     <input id="password" class="inputs-login" type="password" required autocomplete="off" name="password1">
+                </div>
+            </div>
+            <div class="row-login-form">
+                <div class="column2left">
+                    <label for="password2">
+                        {% trans "password"%}<span class="req">*</span>
+                    </label>
+                </div>
+                <div class="column2right">
+                    <input id="password2" class="inputs-login" type="password" required autocomplete="off" name="password2">
+                </div>
+            </div>
+          <input style="padding: 5px;border-radius: 5px;color: #8cc63f;background-color: white" type="submit" value="{% trans 'Sign Up' %}" class="button">
+
+</form>
+<!--<p class="forgot"><a href="{% url 'login:login' %}">{% trans "Go to login"%}</a></p>-->

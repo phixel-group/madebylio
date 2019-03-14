@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="contenedor3tierra" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 560 315" style="enable-background:new 0 0 560 315;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#333333;}
+	.st2{fill:#CCCCCC;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:2.8346;stroke-miterlimit:10;}
+	.st4{fill:#808080;}
+	.st5{fill:#FCEE21;}
+</style>
+<g id="XMLID_272_">
+	<path id="XMLID_3341_" class="st0" d="M560,303c0,6.6-5.4,12-12,12H12c-6.6,0-12-5.4-12-12V12C0,5.4,5.4,0,12,0h536
+		c6.6,0,12,5.4,12,12V303z"/>
+	<rect id="XMLID_3340_" x="5" y="4" class="st1" width="551" height="300"/>
+	<rect id="XMLID_3339_" x="5" y="277" class="st2" width="551" height="29"/>
+	<path id="XMLID_3337_" class="st0" d="M14.2,285.3l13.8,7.1c0,0-13.7,9-13.8,8.3C14,300.1,14.2,285.3,14.2,285.3z"/>
+	<line id="XMLID_3336_" class="st3" x1="49.6" y1="291.4" x2="538.7" y2="292.5"/>
+	<circle id="XMLID_3322_" class="st4" cx="65.9" cy="291.6" r="6.5"/>
+	<path id="XMLID_2337_" class="st5" d="M537.2,145.3l18.5,8.1c0,0-18.3,10.3-18.5,9.6S537.2,145.3,537.2,145.3z"/>
+	<path id="XMLID_2336_" class="st5" d="M27.6,163l-18.5-8.1c0,0,18.3-10.3,18.5-9.6S27.6,163,27.6,163z"/>
+</g>
+</svg>

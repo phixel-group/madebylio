@@ -1,0 +1,63 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+        <p>Guardar Troquel:</p>
+        <form id="formtroquel"  action="{% url 'adminlio:savetroquel' %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div id="cont-preimg">
+                <img id="troquel-previmg" class="responsive-img" src="{% static 'img/emutroquel.png' %}">
+            </div>
+            <div id="cont-inputslabels-troquelform">
+
+                <div>
+                    <label for="nombre_t" >Nombre:</label>
+                    <input id="nombre_t" type="text" name="nombre_troquel" placeholder="Nombre Troquel" required>
+                </div>
+                <div>
+                    <label for="file_t">File Troquel</label>
+                    <input id="file_t"  type="file" name="file_troquel" multiple required>
+                </div>
+                <div>
+                    <label for="size_t">Size Troquel</label>
+                    <input id="size_t"  type="number" name="size_troquel">
+                </div>
+                <div>
+                    <label for="tipo_t">Tipo Troquel</label>
+                    <select id="tipo_t"  name="tipo_troquel">
+                        {% for x,y in choices_type.tipo_troquel.field.choices %}
+                           <option value="{{ x }}">{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label for="category-tform">Categoría Troquel</label>
+                    <select id="category-tform"  name="categoria_troquel">
+                        {% for x,y in choices_type.categoria_troquel.field.choices %}
+                           <option value="{{ x }}">{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label for="subcategory-tform">Subcategoría Troquel</label>
+                    <select id="subcategory-tform"  name="subcategoria_troquel" required>
+                        {% for x,y in choices_type.subcategoria_troquel.field.choices %}
+                           <option value="{{ x }}">{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                 <div>
+                    <label for="editable-tform">troquel editable?:</label>
+                    <select id="editable-tform"  name="editable_troquel">
+                        {% for x,y in choices_type.editable_troquel.field.choices %}
+                           <option value="{{ x }}">{{ y }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <button id="crear-troquel-btn"  type="submit" value="submit">
+                Crear
+            </button>
+        </form>
+

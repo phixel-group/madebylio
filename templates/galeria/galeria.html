@@ -1,0 +1,86 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lio admin</title>
+    <link rel="stylesheet" href="{% static 'css/adminlio.css' %}" type="text/css">
+    <script>
+         var static_url = "{% get_static_prefix %}";
+        var media_url = "{% get_media_prefix %}";
+        var juipo = 'probando';
+    </script>
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+
+
+</head>
+<body>
+<h1 style="background-color: #0acc54;padding: 10px;border-radius: 10px 0 10px 0;color:white;">Create Gallery</h1>
+<div style="position: absolute; left: 40%;top: 27.5%; width: 35%; height: 70%; background-color: #00A6D8; overflow-y: scroll">
+    <form id="post_form" method="post" action="" enctype="multipart/form-data">
+
+    {% csrf_token %}
+    {{ form.as_p }}
+    <!--{% for field in postForm %}
+        {{ field }} <br />
+                    {% endfor %} -->
+
+    {{ creategaleria.management_form }}
+    <table id="aditional-items">
+       {% for field in creategaleria %}
+        <tr><td>{{ field }}</td></tr>
+    {% endfor %}
+    </table>
+
+    {% for error in creategaleria.errors %}
+        <div class="alert alert-danger">
+            <strong>{{ error|escape }}</strong>
+        </div>
+    {% endfor %}
+    <button id="testformset">Agregar Imagen</button>
+    <input type="submit" name="submit" value="Submit" />
+
+
+</form>
+
+
+
+    <div id="galeria"></div>
+</div>
+   <!-- menu lateral admin-->
+<div class="lateral-menu">
+    <ul>
+        <li>
+            <a class="salir-li" href="{% url 'adminlio:homeadmin' %}">{% trans 'Home' %}</a>
+        </li>
+        <li >
+            <a class="salir-li" href="{% url 'adminlio:listproductos' %}">{% trans 'Product List' %}</a>
+        </li>
+        <li >
+            <a class="salir-li" href="{% url 'adminlio:creategallery' %}">{% trans 'Create gallery' %}</a>
+        </li>
+         <li >
+            <a class="salir-li" href="{% url 'adminlio:listgallery' %}">{% trans 'List gallery' %}</a>
+        </li>
+        <li>
+            <a class="salir-li" href="{% url 'adminlio:salir' %}">{% trans 'Log Out' %}</a>
+        </li>
+    </ul>
+</div>
+
+    <script>
+        window.location.hash="no-back-button";
+        window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+        window.onhashchange=function(){window.location.hash="no-back-button";}
+    </script>
+
+    <script type="text/javascript" src="{% static 'js/gallery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/adminlio.js' %}"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>

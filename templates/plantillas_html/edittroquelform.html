@@ -1,0 +1,40 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+         <p style="text-align: center"><span style="position: relative; font-family: shakeoff; background-color: #03f345;color: white; padding: 5px; font-size: 1em;border-radius: 5px">EDITAR TROQUEL</span></p>
+        <form id="formedittroquel"  action="{% url 'adminlio:edittroqueles' valueid %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div id="cont-preimg">
+                <img id="troquel-edit-previmg" class="responsive-img" src="{% static 'img/emutroquel.png' %}">
+            </div>
+            <div id="cont-inputslabels-troqueleditform">
+                 {{ tformedit.non_field_errors }}
+
+                  {% for hidden_field in tformedit.hidden_fields %}
+                    {{ hidden_field.errors }}
+
+                  {% endfor %}
+
+                  <table border="0">
+                    {% for field in tformedit.visible_fields %}
+                      <tr>
+                        <th>{{ field.label_tag }}</th>
+                        <td>
+                          {{ field.errors }}
+                          {{ field }}
+                          {{ field.help_text }}
+                        </td>
+                      </tr>
+                    {% endfor %}
+                  </table>
+
+            </div>
+            <button id="crear-troquel-btn" type="submit" value="submit">
+                Aceptar
+            </button>
+            <button id="cancel-edit-troquel" type="button">
+                Cancelar
+            </button>
+        </form>

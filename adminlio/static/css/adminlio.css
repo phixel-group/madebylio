@@ -1,0 +1,141 @@
+/*FUENTES TIPOGRAFICAS PARA LA PAGINA*/
+@font-face
+{
+	font-family: shakeoffchunki;
+	src: url('../fonts/KGShakeitOffChunky.ttf');
+}
+
+@font-face
+{
+	font-family: BROMO;
+	src: url('../fonts/BROMO.otf');
+}
+
+@font-face
+{
+	font-family: shakeoff;
+	src: url('../fonts/KGShakeitOff.ttf');
+}
+body
+{
+    overflow-x: hidden;
+}
+/*RESPONSIVE CSS STYLES*/
+.responsive-img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#admin-loginadmin
+{
+    width: 100%;
+    height: 100%;
+}
+#admin-login
+{
+    position: absolute;
+    top:38%;
+    left:38%;
+}
+#admin-interface
+{
+    width: 300vw;
+    height: 100vh;
+    background-color: #ffffff;
+    position: absolute;
+
+}
+#admin-troquel-title
+{
+    font-size: 4vw;
+    font-family: BROMO;
+    position:absolute;
+    top:8%;
+    left: 15%;
+
+}
+#troquel-admin
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #ffffff;
+}
+#producto-admin
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 100vw;
+    background-color: #ffffff;
+}
+#producto-confirm
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 200vw;
+    /*background: url("../img/cont_formulario_confirmacion.svg");*/
+}
+.upload-process
+{
+    width: 56%;
+    height: 10%;
+    position: absolute;
+    top:90%;
+    left: 22%;
+}
+.lateral-menu
+{
+	width: 15%;
+    height: 50%;
+    position: absolute;
+    background-color: #212e3e;
+    top:25%;
+    left:0.5%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.lateral-menu ul
+{
+    list-style: none;
+    width: 95%;
+    box-sizing: border-box;
+    list-style-position: outside;
+    padding: 0;
+    margin: auto;
+    font-size: 1.5em;
+    font-family: BROMO;
+    margin-top: 10%;
+}
+.lateral-menu li
+{
+
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 1px solid #293949;
+    background-color:  #2b3c4e;
+    color: #6d84a4;
+
+
+}
+.salir-li
+{
+    text-decoration: none;
+    color: #6d84a4;
+
+}
+.lateral-menu li:hover
+{
+    background-color: #4b637a;
+}

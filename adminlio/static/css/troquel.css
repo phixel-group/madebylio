@@ -1,0 +1,311 @@
+/*posicionando formularios*/
+.go-right
+{
+    float: right;
+}
+.go-left
+{
+    float: left;
+}
+
+.troquel-findbtn
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:8%;
+    left:60%;
+}
+.troquel-addbtn
+{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:8%;
+    left:49%;
+}
+.troquel-findmenu
+{
+    width: 77%;
+    height: 26.5%;
+    position: absolute;
+    top:8%;
+    left:10%;
+    display: none;
+}
+
+.troquel-resultfind
+{
+    width: 77%;
+    height: 75%;
+    position: absolute;
+    top:8%;
+    left:10%;
+    display: none;
+}
+.troquel-newtroquel
+{
+    width: 67%;
+    height: 70%;
+    position: absolute;
+    top:7.5%;
+    left:15.3%;
+    display: none;
+}
+
+#troquel-create
+{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top:20%;
+    left: 20%;
+    background-color: deepskyblue;
+    font-family: shakeoffchunki;
+    font-size: 0.8em;
+    display: none;
+}
+
+/*ESTILOS FORMULARIOS*/
+#cont-preimg
+{
+    width: 30%;
+    height: 55%;
+    position: absolute;
+    top:20%;
+    left: 68%;
+    background: url("../img/cont_formulario_confirmacion.svg") no-repeat;
+    background-size: cover;
+}
+
+#crear-troquel-btn
+{
+    position: absolute;
+    top:92%;
+    left: 87%;
+    font-family: shakeoff;
+    padding: 5px;
+	background-color: #bc3b89;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+	font-size: 0.7em;
+    border:none;
+}
+#cancel-edit-troquel
+{
+    top:92%;
+    left: 75%;
+    position: absolute;
+    font-family: shakeoff;
+    background-color: #fc3b39;
+    color: white; padding: 5px;
+    font-size: 0.7em;
+    border-radius: 5px;
+    border: none;
+}
+#delete-troquel-btn
+{
+    width: 30%;
+    height: 30%;
+    top:80%;
+    left: 70%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+#cancel-delete-troquel
+{
+    width: 30%;
+    height: 30%;
+    top:80%;
+    left: 30%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+#find-troquel-btn
+{
+    width: 15%;
+    height: 15%;
+    top:80%;
+    left:80%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+#text-create-troquel
+{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-family: shakeoffchunki;
+    font-size: 0.8em;
+}
+#text-delete-troquel
+{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-family: shakeoffchunki;
+    font-size: 0.8em;
+}
+#text-cancel-troquel
+{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family: shakeoffchunki;
+    font-size: 0.8em;
+}
+#text-find-troquel
+{
+    position: absolute;
+    top: -20%;
+    left: 30%;
+    font-family: shakeoffchunki;
+    font-size: 0.8em;
+}
+#cont-inputslabels-troquelform /*contenedor de label y input del troquel add form*/
+{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top:15%;
+    left: 0%;
+    background-color: transparent;
+}
+#cont-inputslabels-troqueleditform /*contenedor de label y input del troquel add form*/
+{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    background-color: #31acf7;
+    font-family: shakeoff;
+    color: white;
+    font-size: 0.8em;
+}
+#cont-inputslabels-troqueleditform table/*contenedor de label y input del troquel add form*/
+{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: transparent;
+    table-layout: fixed;
+}
+#cont-inputslabels-troqueleditform input/*contenedor de label y input del troquel add form*/
+{
+    width: 60%;
+}
+form#formtroquel label
+{
+    width: 40%;
+    display: inline-block;
+}
+form#formtroquel input
+{
+    width: 50%;
+    display: inline-block;
+}
+
+#cont-troquelfindform
+{
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    left:5%;
+    font-family: shakeoffchunki;
+    font-size: 0.8em;
+}
+#cont-shadow-background
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000000;
+    display:none;
+}
+#cont-edit-troquel
+{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top:10%;
+    left:25%;
+    background-color: white;
+    display:none;
+    border: 3px solid #fc3b39;
+    border-radius: 5px;
+}
+#cont-delete-troquel
+{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top:35%;
+    left:35%;
+    background-color: #00BCAD;
+    display:none;
+}
+#btn-select-troquel
+{
+    position: absolute;
+    background-color: #0acc54;
+    top:90%;
+    left: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    display: none;
+}
+#btn-editar-troquel
+{
+    position: absolute;
+    background-color: #5a93ee;
+    top:90%;
+    left: 70%;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    display: none;
+}
+#btn-delete-troquel
+{
+    position: absolute;
+    background-color: #fc3b39;
+    top:90%;
+    left: 60%;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    display: none;
+}
+#cont-results-troquel
+{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top:35%;
+    left: 10%;
+    border: solid 1px black;
+    background-color: #1bf70c;
+    display: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.results-troquel
+{
+    width: 20%;
+    height: 35.55%;
+    background-color: #1e15bd;
+}

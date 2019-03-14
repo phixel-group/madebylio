@@ -1,0 +1,17 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+        <p>Esta seguro de eliminar troquel?</p>
+        <form id="formdeletetroquel"  action="{% url 'adminlio:deletetroqueles' valueid %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <button id="cancel-delete-troquel" type="button">
+                <img class="responsive-img" src="{% static 'img/boton_ok.svg' %}">
+                <p id="text-cancel-troquel">Cancelar</p>
+            </button>
+            <button id="delete-troquel-btn" type="submit" value="submit">
+                <img class="responsive-img" src="{% static 'img/boton_ok.svg' %}">
+                <p id="text-delete-troquel">Borrar</p>
+            </button>
+        </form>

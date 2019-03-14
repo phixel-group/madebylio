@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9f38bf69-bb09-4a1f-ba43-a9d284f9d0b1" name="madebylio" url="http://madebylio.com">
+        <fileTransfer host="madebylio.com" port="22" rootFolder="/home/madebylio/ftp/public/madebylio" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

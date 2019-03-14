@@ -1,0 +1,180 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" type="text/css" href="{% static 'css/adminlio.css' %}">
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <style>
+        /*FUENTES TIPOGRAFICAS PARA LA PAGINA*/
+        @font-face
+        {
+            font-family: shakeoffchunki;
+            src: url("{% static 'fonts/KGShakeitOffChunky.ttf' %}");
+        }
+
+        @font-face
+        {
+            font-family: BROMO;
+            src: url("{% static 'fonts/BROMO.otf'%}");
+        }
+
+        @font-face
+        {
+            font-family: shakeoff;
+            src: url("{% static 'fonts/KGShakeitOff.ttf' %}");
+        }
+        table
+        {
+            width: 80%;
+            position: absolute;
+            left: 18%;
+            border-spacing: 0;
+            border-right: 1px solid #ccc;
+            font-family: Serif;
+            border-bottom: solid 1px #ccc;
+        }
+        thead
+        {
+            background-color: #00cccd;
+            font-size: 1.2em;
+            color: white;
+            text-align: center;
+
+        }
+        table tbody tr
+        {
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+        }
+        table tbody tr:hover
+        {
+            background-color: #b2b2b2;
+            color: #f4f4f4;
+            text-align: center;
+        }
+        td,th
+        {
+             border-left: 1px solid #ccc;
+             border-top: 1px solid #ccc;
+        }
+         #title_listproducts
+        {
+            text-align: center;
+        }
+        #title_listproducts span
+        {
+            padding: 10px;
+            background-color: #1e15bd;
+            color: white;
+            font-family: shakeoffchunki;
+            text-align: center;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <div><h1 id="title_listproducts"><span>{% trans 'List of galleries' %}</span></h1></div>
+
+    <!--<a style="position: fixed; top:2%; left: 95%;text-decoration: none;background-color: #1e15bd;color: white;border-radius: 3px;padding: 5px; font-family: shakeoffchunki" href="{% url 'adminlio:salir' %}">Salir</a>-->
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>{% trans 'Name' %}</th>
+                <th>{% trans 'Description' %}</th>
+                <th>{% trans 'Edit' %}</th>
+                <th>{% trans 'Delete' %}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if galerias %} <!-- si hay mascotas en el contexto if mascotas usando vistas como funciones-->
+                {% for galeria in galerias %}
+                <tr>
+                    <td>{{ galeria.id }}</td>
+                    <td>{{ galeria.title }}</td>
+                    <td>{{ galeria.body }}</td>
+                    <td>
+                        <a href="{% url 'adminlio:editgallery' galeria.id %}" style="text-decoration: none;background-color: #1e15bd;color: white;border-radius: 3px;padding: 5px;">{% trans 'Edit' %}</a> <!-- mascota.id es para que nos mande a la direccion del id que queremos modificar-->
+                    </td>
+                    <td>
+                        <a href="{% url 'adminlio:deletegallery' galeria.id %}" style="text-decoration: none;background-color: #fc2e3c;color: white;border-radius: 3px;padding: 5px;">{% trans 'Delete' %}</a> <!-- mascota.id es para que nos mande a la direccion del id que queremos modificar-->
+                    </td>
+                </tr>
+                {% endfor %}
+                {% else %}
+                   <h1> No hay registros de galerias</h1>
+            {% endif %}
+        </tbody>
+    </table>
+    <!-- menu lateral admin-->
+<div class="lateral-menu">
+    <ul>
+        <li>
+            <a class="salir-li" href="{% url 'adminlio:homeadmin' %}">{% trans 'Home' %}</a>
+        </li>
+        <li >
+            <a class="salir-li" href="{% url 'adminlio:listproductos' %}">{% trans 'Product List' %}</a>
+        </li>
+        <li >
+            <a class="salir-li" href="{% url 'adminlio:creategallery' %}">{% trans 'Create gallery' %}</a>
+        </li>
+        <li>
+            <a class="salir-li" href="{% url 'adminlio:salir' %}">{% trans 'Log Out' %}</a>
+        </li>
+    </ul>
+</div>
+    <script type="text/javascript" >
+        $.ajax({
+           url : 'zonas',
+           type: 'get',
+           data : {},
+
+           success : function(json) {
+               //alert(json.devuelto.length);
+               // pinta el svg con datos de las zonas en la base de datos
+
+               var shadow_object_img = document.querySelectorAll('[id*=list_prod]');
+               $(shadow_object_img).on('load',function () {
+                   for (var prod = 0; prod < shadow_object_img.length; prod++)
+                   {
+                       //activamos el evento load para cada object. Este evento cargara los colores del mismo desde la db
+
+                       //$(this.object_img[prod]).unbind('load');
+                        (function (x)
+                       {
+                               var svgobject = shadow_object_img[x].contentDocument;
+                               var zonasclick = svgobject.querySelectorAll("[id^=click]");
+                               for (var zona = 0; zona < zonasclick.length; zona++) {
+                                   svgobject.querySelector('#' + zonasclick[zona].id.slice(5) + ' image').setAttribute('xlink:href', '/media/' + json.zone[x][zona]['color_zona__file_color']);
+                                   console.log(json.zone[x][zona]['color_zona__file_color']);
+                               }
+
+                       })(prod);
+
+
+                   }
+               });
+
+
+           }
+               //$('#prevsvg').attr('data','../../media/'+ json.daticos[0].file_troquel);
+           ,
+
+            error : function(xhr,errmsg,err)
+            {
+                alert(err);
+            }
+        });
+    </script>
+</body>
+</html>

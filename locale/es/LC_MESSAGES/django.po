@@ -1,0 +1,607 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-28 18:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: adminlio/models.py:8
+msgid "usuarioa"
+msgstr "ussera"
+
+#: adminlio/models.py:9
+msgid "usuariosa"
+msgstr ""
+
+#: login/models.py:10
+msgid "usuario"
+msgstr "user"
+
+#: login/models.py:11
+msgid "usuarios"
+msgstr "users"
+
+#: madebylio/settings.py:163
+msgid "English"
+msgstr ""
+
+#: madebylio/settings.py:164
+msgid "Spanish"
+msgstr ""
+
+#: madebylio/settings.py:165
+msgid "Italian"
+msgstr ""
+
+#: madebylio/urls.py:39
+msgid "^admin/"
+msgstr "^administrador/"
+
+#: madebylio/urls.py:40
+msgid "^login/"
+msgstr "^Ingreso/"
+
+#: madebylio/urls.py:41
+msgid "^adminlio/"
+msgstr "^adminlio/"
+
+#: madebylio/urls.py:42
+msgid "^pagos/"
+msgstr "^pagos/"
+
+#: madebylio/urls.py:43
+msgid "^$"
+msgstr "^$"
+
+#: madebylio/urls.py:44
+msgid "^teste"
+msgstr ""
+
+#: madebylio/urls.py:46
+msgid "accounts/"
+msgstr ""
+
+#: madebylio/urls.py:47
+msgid "^cleancookies$"
+msgstr ""
+
+#: madebylio/urls.py:48
+msgid "^showsameproducts$"
+msgstr ""
+
+#: madebylio/urls.py:49
+msgid "chargecolors$"
+msgstr ""
+
+#: madebylio/urls.py:50
+msgid "^savecanvas$"
+msgstr ""
+
+#: madebylio/urls.py:51
+msgid "^savebuy$"
+msgstr ""
+
+#: madebylio/urls.py:52
+msgid "^testquery$"
+msgstr ""
+
+#: madebylio/urls.py:53
+msgid "^fillmobileshopcar$"
+msgstr ""
+
+#: madebylio/urls.py:54
+msgid "^pagos/retrieve_data$"
+msgstr ""
+
+#: madebylio/urls.py:58
+msgid "^showproducts$"
+msgstr ""
+
+#: madebylio/urls.py:59
+msgid "^validateusername$"
+msgstr ""
+
+#: madebylio/urls.py:60
+msgid "^showimagenes$"
+msgstr ""
+
+#: madebylio/urls.py:61
+msgid "^showgalleries$"
+msgstr ""
+
+#: madebylio/urls.py:62
+msgid "^showprodforcategories"
+msgstr ""
+
+#: madebylio/urls.py:63
+msgid "^salir$"
+msgstr ""
+
+#: madebylio/urls.py:65
+msgid "^reset/password_reset/$"
+msgstr ""
+
+#: madebylio/urls.py:66
+msgid "^reset/password_reset_done/$"
+msgstr ""
+
+#: madebylio/urls.py:67
+msgid "^reset/(?P<uidb64>[0-9A-Za-z_\\-]+)/(?P<token>.+)/$"
+msgstr ""
+
+#: madebylio/urls.py:68
+msgid "^reset/done/$"
+msgstr ""
+
+#: templates/adminlio/confirm.html:33 templates/adminlio/listproductos.html:137
+#: templates/adminlio/producto.html:82 templates/adminlio/troquel.html:96
+msgid "Product List"
+msgstr "Lista de productos"
+
+#: templates/adminlio/confirm.html:36 templates/adminlio/listproductos.html:140
+#: templates/adminlio/producto.html:85 templates/adminlio/troquel.html:99
+#: templates/base/base.html:298
+msgid "Log Out"
+msgstr "Salir"
+
+#: templates/base/base.html:140 templates/base/base.html:197
+msgid "Home"
+msgstr "Inicio"
+
+#: templates/base/base.html:143 templates/base/base.html:207
+msgid "Products"
+msgstr "Productos"
+
+#: templates/base/base.html:146 templates/base/base.html:217
+#: templates/base/galeria.html:9
+msgid "Gallery"
+msgstr "Galería"
+
+#: templates/base/base.html:149 templates/base/base.html:228
+#: templates/base/contacto.html:9
+msgid "Contact"
+msgstr "Contacto"
+
+#: templates/base/base.html:245 templates/base/base.html:294
+msgid "Sign In"
+msgstr "Ingreso"
+
+#: templates/base/base.html:256 templates/base/base.html:293
+#: templates/plantillas_html/reg-form.html:82
+msgid "Sign Up"
+msgstr "Registro"
+
+#: templates/base/base.html:296
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#: templates/base/base.html:297
+msgid "My Shops"
+msgstr "Mis compras"
+
+#: templates/base/contacto.html:11
+msgid "MISION"
+msgstr "MISIÓN"
+
+#: templates/base/contacto.html:13
+msgid "VISION"
+msgstr "VISIÓN"
+
+#: templates/base/contacto.html:15
+msgid "About Us"
+msgstr "Quienes somos"
+
+#: templates/base/contacto.html:17
+msgid "FAQ"
+msgstr "Ayuda"
+
+#: templates/base/contacto.html:22
+msgid ""
+"\n"
+"                Colors like a MAGNET will catch you, for transforming a "
+"picture.\n"
+"And the best without knowing how to draw, because of that Lio will take "
+"care ...\n"
+"Creating beautiful pieces is our skill,\n"
+"So that embellish your home.\n"
+"Writing, fitting, just let go and let yourself go ...\n"
+"For the child that should never be turned off.\n"
+"\n"
+"            "
+msgstr ""
+"\n"
+"Los colores como un IMÁN te atraparán , para un cuadro formar.\n"
+"               ¡ y lo mejor sin saber dibujar !, porque de eso Lio se "
+"encargará....\n"
+"                Crear piezas hermosas es nuestra habilidad,\n"
+"                Para que usted embellezca su lugar.\n"
+"                Escribiendo, encajando, solo suelte y déjese llevar ...\n"
+"               Por el niño que Jamás se debe apagar.            "
+
+#: templates/base/contacto.html:37
+msgid ""
+"\n"
+"               To roll and roll, we go to the whole world to infect.\n"
+"\"Borders will not catch us. Beauty and colors will help us,\"\n"
+"\"To the inner child rescue, from this world that prevents us from dreaming, "
+"who said\"\n"
+"\"What can not be achieved ?.\n"
+"            "
+msgstr ""
+"\n"
+"A rodar y rodar , vamos al mundo entero a contagiar.Las fronteras no nos van "
+"a atrapar .La belleza y los colores nos van a ayudar, Al niño interior "
+"rescatar, de este mundo que nos impide soñar . ¿Quien dijo que no se puede "
+"lograr?            "
+
+#: templates/base/contacto.html:49
+msgid ""
+"\n"
+"WE ARE A BRAND WHICH PRODUCTS ARE MANUFACTURED AND PAINTED by Colombian "
+"handmade, These products were created by a plastic artist named Liliana "
+"Ortiz, who uses their own technique that give authenticity to each piece and "
+"are made in different materials to decorate any space.        "
+msgstr ""
+"\n"
+"Somos una marca  cuyos productos elaborados y pintados a mano en Colombia, "
+"fueron creados por una artista plástica llamada Liliana Ortiz, quien emplea "
+"una técnica propia que dan autenticidad a cada pieza y se elaboran en "
+"diferentes materiales para decorar cualquier espacio."
+
+#: templates/base/contacto.html:79
+msgid ""
+"\n"
+"\n"
+"            You find us in Bogota  or order your purchase in www.madebylio."
+"com\n"
+"        "
+msgstr ""
+"\n"
+"Encuentranos en CC Centro Mayor, frente a Cinema."
+
+#: templates/base/contacto.html:86
+msgid ""
+"\n"
+"            lio@madebylio.com\n"
+"            comercial@madebylio.com\n"
+"            Cel: 319 259 1275\n"
+"        "
+msgstr ""
+
+#: templates/base/inicio.html:54
+msgid ""
+"\n"
+"                        <p><span>Everything is made </span> 100 percent "
+"<span> by handmade </span>  in Cundinamarca/Colombia.</p>\n"
+"                    "
+msgstr ""
+"\n"
+"                        <p><span>Todo es hecho</span> 100 porciento <span> a "
+"mano </span>  en Cundinamarca/Colombia.</p>\n"
+"                    "
+
+#: templates/base/inicio.html:64
+msgid ""
+"\n"
+"                        <p>The artist, in her desire to innovate, creates a "
+"new technique that she uses for her products.</p>\n"
+"                    "
+msgstr ""
+"\n"
+"                        <p>La artista, en su ánimo de innovar, crea una "
+"nueva tecnica que ella usa para sus productos.</p>\n"
+"                    "
+
+#: templates/base/inicio.html:74
+msgid ""
+"\n"
+"                        <p>Thanks to the variety of shapes you can compose "
+"and <span> customize your space.</span></p>\n"
+"                    "
+msgstr ""
+"\n"
+"                        <p>Gracias a la variedad de figuras tú puedes "
+"componer  y <span> personalizar tu espacio.</span></p>\n"
+"                    "
+
+#: templates/base/inicio.html:84
+msgid ""
+"\n"
+"                        <p>Vibrant and transparent colors in gouache with "
+"brush, with dots and stripes finishes by subtraction of color, give a touch "
+"of originality and give authenticity. </p>\n"
+"                    "
+msgstr ""
+"\n"
+"                        <p>Colores vibrantes y transparentes en aguadas con "
+"pincel, con acabados de puntos y rayas por sustracción de color, dan un "
+"toque de originalidad y otorgan autenticidad.</p>\n"
+"                    "
+
+#: templates/base/inicio.html:129
+msgid ""
+"\n"
+"            <span>Contemporary products for the home</span>\n"
+"        "
+msgstr ""
+"\n"
+"            <span>Productos contemporaneos para el hogar</span>\n"
+"        "
+
+#: templates/base/inicio.html:135
+msgid ""
+"\n"
+"             <span>Welcome</span> to Made by Lio\n"
+"        "
+msgstr ""
+"\n"
+"             <span>Bienvenidos</span> a Made by Lio\n"
+"        "
+
+#: templates/base/inicio.html:156
+msgid "test to madebylio"
+msgstr " probando madebylio"
+
+#: templates/base/productos.html:30 templates/base/productos.html:220
+msgid "Magnet"
+msgstr "Imánes"
+
+#: templates/base/productos.html:37 templates/base/productos.html:126
+#: templates/base/productos.html:234
+msgid "Pottery"
+msgstr "Cerámica"
+
+#: templates/base/productos.html:43
+msgid "Catchpenny"
+msgstr "Joyería"
+
+#: templates/base/productos.html:50 templates/base/productos.html:262
+msgid "Homes"
+msgstr "Hogar"
+
+#: templates/base/productos.html:74
+msgid "Buy"
+msgstr "Comprar"
+
+#: templates/base/productos.html:83
+msgid ""
+"\n"
+"            Clear <br> board\n"
+"        "
+msgstr ""
+"\n"
+"            Borrar <br> Tablero\n"
+"        "
+
+#: templates/base/productos.html:132
+msgid "Select a product!"
+msgstr "Selecciona un producto"
+
+#: templates/base/productos.html:137
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/base/productos.html:151
+msgid "Share"
+msgstr "Compartir"
+
+#: templates/base/productos.html:185
+msgid ""
+"\n"
+"                 Arrastra los productos al tablero,\n"
+"        puedes rotarlos o cambiar su tamaño a tu gusto.\n"
+"            "
+msgstr ""
+
+#: templates/base/productos.html:248
+msgid "Jewerly"
+msgstr "Joyería"
+
+#: templates/base/productos.html:280
+msgid "Letter"
+msgstr "Letras"
+
+#: templates/base/productos.html:294
+msgid "Stuff"
+msgstr "Objetos"
+
+#: templates/base/productos.html:308
+msgid "Cars"
+msgstr "Carros"
+
+#: templates/base/productos.html:322
+msgid "Fruits"
+msgstr "Frutas"
+
+#: templates/base/productos.html:336
+msgid "Characters"
+msgstr "Personajes"
+
+#: templates/base/productos.html:350
+msgid "Sheets"
+msgstr "Láminas"
+
+#: templates/base/productos.html:365
+msgid "Plates"
+msgstr "Platos"
+
+#: templates/base/productos.html:379
+msgid "Spoon"
+msgstr "Cucharas"
+
+#: templates/base/productos.html:393
+msgid "Fork"
+msgstr "Tenedor"
+
+#: templates/base/productos.html:407
+msgid "Teapot"
+msgstr "Tazas"
+
+#: templates/base/productos.html:421
+msgid "Mugs"
+msgstr "Pocillos"
+
+#: templates/base/productos.html:435
+msgid "Diadem"
+msgstr "Diademas"
+
+#: templates/base/productos.html:449
+#, fuzzy
+#| msgid "Earrings"
+msgid "Earring"
+msgstr "Aretes"
+
+#: templates/base/productos.html:463
+#, fuzzy
+#| msgid "Clocks"
+msgid "Clock"
+msgstr "Relojes"
+
+#: templates/base/productos.html:477
+#, fuzzy
+#| msgid "Pictures"
+msgid "Picture"
+msgstr "Pinturas"
+
+#: templates/login/adminregistro.html:38 templates/login/registro.html:38
+#: templates/plantillas_html/reg-form.html:25
+#: templates/plantillas_html/responsive-reg.html:26
+msgid "Username"
+msgstr "Usuario"
+
+#: templates/login/adminregistro.html:44 templates/login/registro.html:44
+#: templates/plantillas_html/reg-form.html:35
+#: templates/plantillas_html/responsive-reg.html:36
+msgid "First Name"
+msgstr "Primer Nombre"
+
+#: templates/login/adminregistro.html:52 templates/login/registro.html:52
+#: templates/plantillas_html/reg-form.html:44
+#: templates/plantillas_html/responsive-reg.html:45
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: templates/login/adminregistro.html:58 templates/login/registro.html:58
+#: templates/plantillas_html/reg-form.html:55
+#: templates/plantillas_html/responsive-reg.html:56
+msgid "email"
+msgstr "Correo"
+
+#: templates/login/adminregistro.html:64 templates/login/registro.html:64
+#: templates/plantillas_html/responsive-reg.html:66
+#, fuzzy
+#| msgid "colour"
+msgid "color"
+msgstr "color"
+
+#: templates/login/adminregistro.html:70 templates/login/adminregistro.html:77
+#: templates/login/registro.html:70 templates/login/registro.html:77
+#: templates/plantillas_html/reg-form.html:65
+#: templates/plantillas_html/reg-form.html:75
+#: templates/plantillas_html/responsive-reg.html:76
+#: templates/plantillas_html/responsive-reg.html:86
+msgid "password"
+msgstr "contraseña"
+
+#: templates/login/adminregistro.html:85 templates/login/registro.html:85
+#: templates/plantillas_html/reg-form.html:85
+#: templates/plantillas_html/responsive-reg.html:96
+msgid "Go to login"
+msgstr "Ingresar"
+
+#: templates/login/login.html:14 templates/login/loginadmin.html:34
+msgid "Welcome Back!"
+msgstr "Bienvenidos"
+
+#: templates/login/login.html:35 templates/login/loginadmin.html:59
+msgid "User"
+msgstr "Usuarios"
+
+#: templates/login/login.html:42 templates/login/loginadmin.html:69
+#: templates/plantillas_html/login-form.html:38
+#: templates/plantillas_html/responsive-login.html:39
+msgid "Password"
+msgstr "Contraseña"
+
+#: templates/plantillas_html/form_email.html:7
+msgid "Send your questions!"
+msgstr "Envia tus inquietudes!"
+
+#: templates/plantillas_html/form_email.html:20
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/plantillas_html/form_email.html:28
+#, fuzzy
+#| msgid "email"
+msgid "Email"
+msgstr "Correo"
+
+#: templates/plantillas_html/form_email.html:36
+msgid "Email message:"
+msgstr "Mensaje:"
+
+#: templates/plantillas_html/form_email.html:46
+msgid "Send!"
+msgstr "Enviar!"
+
+#: templates/plantillas_html/login-form.html:29
+#: templates/plantillas_html/responsive-login.html:30
+msgid "User or email"
+msgstr "Usuario o correo"
+
+#: templates/plantillas_html/login-form.html:48
+msgid "Don't have account?"
+msgstr "No estas registrado?"
+
+#: templates/plantillas_html/login-form.html:48
+msgid "Sign Up here!"
+msgstr "Registrate aquí"
+
+#: templates/plantillas_html/login-form.html:57
+#: templates/plantillas_html/responsive-login.html:59
+msgid "Forgot Password?"
+msgstr "Olvidé mi contraseña"
+
+#: templates/plantillas_html/login-form.html:67
+msgid "Log In"
+msgstr "Ingresar"
+
+#~ msgid ""
+#~ "\n"
+#~ "               SOMOS UNA MARCA CUYOS PRODUCTOS ELABORADOS Y PINTADOS a "
+#~ "mano en Colombia, fueron creados por una artista plástica llamada Liliana "
+#~ "Ortiz, quien emplea una técnica propia que dan autenticidad a cada pieza "
+#~ "y se elaboran en diferentes materiales para decorar cualquier espacio.\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "               SOMOS UNA MARCA CUYOS PRODUCTOS ELABORADOS Y PINTADOS a "
+#~ "mano en Colombia, fueron creados por una artista plástica llamada Liliana "
+#~ "Ortiz, quien emplea una técnica propia que dan autenticidad a cada pieza "
+#~ "y se elaboran en diferentes materiales para decorar cualquier espacio.\n"
+#~ "        "
+
+#~ msgid "Crowns"
+#~ msgstr "Coronas"
+
+#, fuzzy
+#~| msgid "Welcome Back!"
+#~ msgid "Welcome"
+#~ msgstr "Bienvenidos"
+
+#~ msgid "hello motorolo"
+#~ msgstr "hola motorola"

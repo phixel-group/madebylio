@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc259c2a-417a-4dc4-a5f9-9dd14a8f395e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_js_productos_js.coverage" NAME="Test: base.static.js.productos.js Coverage Results" MODIFIED="1542590314726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_css_base_css.coverage" NAME="Test: base.static.css.base.css Coverage Results" MODIFIED="1539205793549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__templates_base_contacto_html.coverage" NAME="Test: templates.base.contacto.html Coverage Results" MODIFIED="1537121942598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_js_test_productos_js.coverage" NAME="Test: base.static.js.test_productos.js Coverage Results" MODIFIED="1545175589990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_css_contacto_css.coverage" NAME="Test: base.static.css.contacto.css Coverage Results" MODIFIED="1544664707250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$views.coverage" NAME="views Coverage Results" MODIFIED="1540009891335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_css_mediaqueries_css.coverage" NAME="Test: base.static.css.mediaqueries.css Coverage Results" MODIFIED="1544224570394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_css_productos_css.coverage" NAME="Test: base.static.css.productos.css Coverage Results" MODIFIED="1539732821564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_js_slider_js.coverage" NAME="Test: base.static.js.slider.js Coverage Results" MODIFIED="1542571841202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__templates_base_productos_html.coverage" NAME="Test: templates.base.productos.html Coverage Results" MODIFIED="1536941377549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__templates_adminlio.coverage" NAME="Test: templates.adminlio Coverage Results" MODIFIED="1532281883664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_js_galeria_js.coverage" NAME="Test: base.static.js.galeria.js Coverage Results" MODIFIED="1544673099991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__base_static_js_test_slider_js.coverage" NAME="Test: base.static.js.test_slider.js Coverage Results" MODIFIED="1543011255072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__galeria.coverage" NAME="Test: galeria Coverage Results" MODIFIED="1536944419342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__templates_base_inicio_html.coverage" NAME="Test: templates.base.inicio.html Coverage Results" MODIFIED="1535829133048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/madebylio$Test__templates_plantillas_html_userlogin_html.coverage" NAME="Test: templates.plantillas_html.userlogin.html Coverage Results" MODIFIED="1533158331778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="madebylio" is-module-sdk="true">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="madebylio" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="madebylio">
+      <favorite_root url="file://$PROJECT_DIR$/base/static/css/mediaqueries.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/adminlio/producto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/madebylio/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="69" />
+              <folding>
+                <element signature="e#643#683#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/plantillas_html/form_productos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3675">
+              <caret line="263" column="39" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#base64</find>
+      <find>charge</find>
+      <find>help-dra</find>
+      <find>drag</find>
+      <find>dale click</find>
+      <find>paint_object_with_64images_noinfo_mfile</find>
+      <find>videojs</find>
+      <find>video</find>
+      <find>like</find>
+      <find>column2left</find>
+      <find>og.</find>
+      <find>'#base64'</find>
+      <find>create</find>
+      <find>nombre_t</find>
+      <find>repeattroquel</find>
+      <find>validate</find>
+      <find>change</find>
+      <find>validatetroquel</find>
+      <find>img</find>
+      <find>salir</find>
+      <find>home</find>
+      <find>httpres</find>
+      <find>gett</find>
+      <find>aus</find>
+      <find>select-language</find>
+      <find>og:</find>
+      <find>test-aj</find>
+      <find>let</find>
+      <find>10000</find>
+      <find>error</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/templates/adminlio</dir>
+      <dir>$PROJECT_DIR$/adminlio/static/css</dir>
+      <dir>$PROJECT_DIR$/base/static/fonts</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pagos/views.py" />
+        <option value="$PROJECT_DIR$/templates/pagos/index.html" />
+        <option value="$PROJECT_DIR$/adminlio/static/css/troquel.css" />
+        <option value="$PROJECT_DIR$/adminlio/static/js/forms.js" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/form_troqueles.html" />
+        <option value="$PROJECT_DIR$/base/static/js/slider.js" />
+        <option value="$PROJECT_DIR$/templates/base/test_base.html" />
+        <option value="$PROJECT_DIR$/base/static/js/productos.js" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/responsive-reg.html" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/user-panel.html" />
+        <option value="$PROJECT_DIR$/base/static/img/svg/fondo/fondo.svg" />
+        <option value="$PROJECT_DIR$/base/static/js/contacto.js" />
+        <option value="$PROJECT_DIR$/adminlio/static/css/producto.css" />
+        <option value="$PROJECT_DIR$/templates/base/galeria.html" />
+        <option value="$PROJECT_DIR$/base/static/js/galeria.js" />
+        <option value="$PROJECT_DIR$/base/static/css/galeria.css" />
+        <option value="$PROJECT_DIR$/base/static/css/contacto.css" />
+        <option value="$PROJECT_DIR$/base/static/js/test_copy_shortcuts.js" />
+        <option value="$PROJECT_DIR$/base/static/css/mediaqueries.css" />
+        <option value="$PROJECT_DIR$/templates/base/contacto.html" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/reg-form.html" />
+        <option value="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/form_email.html" />
+        <option value="$PROJECT_DIR$/base/static/css/base.css" />
+        <option value="$PROJECT_DIR$/base/static/css/productos.css" />
+        <option value="$PROJECT_DIR$/locale/es/LC_MESSAGES/djangojs.po" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/login-form.html" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/responsive-login.html" />
+        <option value="$PROJECT_DIR$/templates/galeria/eliminar_galeria.html" />
+        <option value="$PROJECT_DIR$/templates/galeria/edit_galeria.html" />
+        <option value="$PROJECT_DIR$/templates/adminlio/listproductos.html" />
+        <option value="$PROJECT_DIR$/templates/adminlio/troquel.html" />
+        <option value="$PROJECT_DIR$/templates/adminlio/producto.html" />
+        <option value="$PROJECT_DIR$/templates/galeria/listgalerias.html" />
+        <option value="$PROJECT_DIR$/templates/galeria/galeria.html" />
+        <option value="$PROJECT_DIR$/madebylio/urls.py" />
+        <option value="$PROJECT_DIR$/adminlio/urls.py" />
+        <option value="$PROJECT_DIR$/templates/adminlio/index.html" />
+        <option value="$PROJECT_DIR$/templates/base/productos.html" />
+        <option value="$PROJECT_DIR$/madebylio/settings.py" />
+        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/templates/base/inicio.html" />
+        <option value="$PROJECT_DIR$/adminlio/forms.py" />
+        <option value="$PROJECT_DIR$/adminlio/views.py" />
+        <option value="$PROJECT_DIR$/base/views.py" />
+        <option value="$PROJECT_DIR$/adminlio/models.py" />
+        <option value="$PROJECT_DIR$/adminlio/static/js/adminlio.js" />
+        <option value="$PROJECT_DIR$/templates/adminlio/editar_producto.html" />
+        <option value="$PROJECT_DIR$/templates/plantillas_html/form_productos.html" />
+        <option value="$PROJECT_DIR$/base/static/js/test_productos.js" />
+        <option value="$PROJECT_DIR$/base/static/js/test_slider.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-28" />
+    <option name="y" value="27" />
+    <option name="width" value="955" />
+    <option name="height" value="557" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="plantillas_html" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/gipsy/Escritorio/html5django/julio2018/madebylio/base/static/js/productos.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/base/static/img" />
+      <recent name="$PROJECT_DIR$/templates/galeria" />
+      <recent name="$PROJECT_DIR$/base/static/js" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/base/static/js" />
+      <recent name="$PROJECT_DIR$/base/static/img" />
+      <recent name="$PROJECT_DIR$/pagos/static/pagosimg" />
+      <recent name="$PROJECT_DIR$/adminlio/static/js" />
+      <recent name="$PROJECT_DIR$/base/static/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.madebylio">
+    <configuration name="Test: base.static.css.contacto.css" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="madebylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="base.static.css.contacto.css" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: base.static.css.mediaqueries.css" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="madebylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="base.static.css.mediaqueries.css" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: base.static.js.galeria.js" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="madebylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="base.static.js.galeria.js" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: base.static.js.test_productos.js" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="madebylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="base.static.js.test_productos.js" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: base.static.js.test_slider.js" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="madebylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="base.static.js.test_slider.js" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="madebylio" type="Python.DjangoServer" factoryName="Django server">
+      <module name="madebylio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="madebylio.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="phixeldev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.madebylio" />
+      <item itemvalue="Django tests.Test: base.static.js.test_slider.js" />
+      <item itemvalue="Django tests.Test: base.static.js.test_productos.js" />
+      <item itemvalue="Django tests.Test: base.static.css.mediaqueries.css" />
+      <item itemvalue="Django tests.Test: base.static.css.contacto.css" />
+      <item itemvalue="Django tests.Test: base.static.js.galeria.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: base.static.js.test_productos.js" />
+        <item itemvalue="Django tests.Test: base.static.js.galeria.js" />
+        <item itemvalue="Django tests.Test: base.static.css.contacto.css" />
+        <item itemvalue="Django tests.Test: base.static.css.mediaqueries.css" />
+        <item itemvalue="Django tests.Test: base.static.js.test_slider.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc259c2a-417a-4dc4-a5f9-9dd14a8f395e" name="Default" comment="" />
+      <created>1531170427679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531170427679</updated>
+      <workItem from="1545240282125" duration="29359000" />
+      <workItem from="1545317657947" duration="35030000" />
+      <workItem from="1545403535875" duration="6771000" />
+      <workItem from="1545855074427" duration="3162000" />
+      <workItem from="1545935142966" duration="26718000" />
+      <workItem from="1546016665388" duration="19220000" />
+      <workItem from="1546103190131" duration="2120000" />
+      <workItem from="1546109460177" duration="2679000" />
+      <workItem from="1546117916591" duration="1272000" />
+      <workItem from="1546140481726" duration="3268000" />
+      <workItem from="1546448893860" duration="19405000" />
+      <workItem from="1546898321918" duration="3061000" />
+      <workItem from="1547078270469" duration="34000" />
+      <workItem from="1547079629580" duration="159000" />
+      <workItem from="1547227491559" duration="20737000" />
+      <workItem from="1547948852427" duration="3479000" />
+      <workItem from="1547962234642" duration="972000" />
+      <workItem from="1548015039100" duration="2644000" />
+      <workItem from="1548222410266" duration="934000" />
+      <workItem from="1548256145282" duration="591000" />
+      <workItem from="1548437464706" duration="674000" />
+      <workItem from="1548699644679" duration="698000" />
+      <workItem from="1549334366202" duration="836000" />
+      <workItem from="1549936738754" duration="1992000" />
+      <workItem from="1551019996173" duration="599000" />
+      <workItem from="1551059865429" duration="7878000" />
+      <workItem from="1551108661884" duration="3689000" />
+      <workItem from="1551128986931" duration="640000" />
+      <workItem from="1551280248895" duration="9641000" />
+      <workItem from="1551319496371" duration="637000" />
+      <workItem from="1551453772169" duration="4384000" />
+      <workItem from="1551458548262" duration="6370000" />
+      <workItem from="1552442557897" duration="704000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__base_static_js_galeria_js - 2018.12.12 at 22h 52m 11s.xml">
+      <configuration name="Test: base.static.js.galeria.js" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__base_static_js_test_productos_js - 2018.12.18 at 18h 26m 58s.xml">
+      <configuration name="Test: base.static.js.test_productos.js" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__base_static_js_test_slider_js - 2018.11.23 at 17h 15m 00s.xml">
+      <configuration name="Test: base.static.js.test_slider.js" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_base_contacto_html - 2018.09.16 at 13h 19m 08s.xml">
+      <configuration name="Test: templates.base.contacto.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_base_inicio_html - 2018.09.01 at 14h 12m 44s.xml">
+      <configuration name="Test: templates.base.inicio.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_base_productos_html - 2018.09.10 at 14h 15m 21s.xml">
+      <configuration name="Test: templates.base.productos.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_base_productos_html - 2018.09.14 at 11h 09m 47s.xml">
+      <configuration name="Test: templates.base.productos.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_base_test_base_html - 2018.11.19 at 11h 41m 43s.xml">
+      <configuration name="Test: templates.base.test_base.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_plantillas_html_userlogin_html - 2018.08.01 at 16h 19m 11s.xml">
+      <configuration name="Test: templates.plantillas_html.userlogin.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_registration_password_reset_form_html - 2018.09.04 at 12h 13m 45s.xml">
+      <configuration name="Test: templates.registration.password_reset_form.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="220357000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5090498" side_tool="true" weight="0.24861" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49095023" visible="true" weight="0.19792499" />
+      <window_info id="Structure" order="2" weight="0.2530303" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.51157224" side_tool="true" visible="true" weight="0.048701297" />
+      <window_info anchor="bottom" id="File Transfer" order="1" sideWeight="0.4884278" visible="true" weight="0.048701297" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49563837" weight="0.31758958" />
+      <window_info anchor="bottom" id="manage.py@phixeldev" order="4" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32868218" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32736155" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49405235" weight="0.17752443" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39625585" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32736155" />
+      <window_info anchor="bottom" id="manage.py@madebylio" order="14" sideWeight="0.49561054" visible="true" weight="0.35064936" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32868218" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="right" id="Data View" order="0" sideWeight="0.47131783" weight="0.32831088" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="2" sideWeight="0.5286822" side_tool="true" weight="0.32858273" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49095023" weight="0.3291039" />
+      <window_info anchor="right" id="R Packages" order="6" weight="0.32960895" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="R Graphics" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.5090498" side_tool="true" weight="0.24861" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49095023" visible="true" weight="0.21136364" />
+      <window_info id="Structure" order="2" weight="0.2530303" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5037879" side_tool="true" weight="0.38258165" />
+      <window_info anchor="bottom" id="File Transfer" order="1" sideWeight="0.49722883" weight="0.46345258" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49563837" weight="0.31758958" />
+      <window_info anchor="bottom" id="manage.py@phixeldev" order="4" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32868218" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32736155" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49405235" weight="0.17752443" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39625585" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32736155" />
+      <window_info active="true" anchor="bottom" id="manage.py@madebylio" order="14" sideWeight="0.49621212" visible="true" weight="0.33592534" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32868218" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="right" id="Data View" order="0" sideWeight="0.47131783" weight="0.32831088" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="2" sideWeight="0.5286822" side_tool="true" weight="0.32858273" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49095023" weight="0.3291039" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="R Graphics" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/plantillas_html/form_troqueles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/js/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+          <folding>
+            <element signature="e#4329#8208#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galeria/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/proty.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/peregrinos.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/img_troquel.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/facelog.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/bot-row.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/help-prod.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/preview.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/show.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/png/productos/botones/change_product.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/png/salir.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/css/mediaqueries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15480">
+          <caret line="1032" column="18" selection-start-line="1032" selection-start-column="18" selection-end-line="1032" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/australia.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/css/adminlio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/img/test-img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/base-test.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/kakaroto.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/tempts.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/tempt.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/lospasse_wJvLtBX.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/takansat_zCacsnR.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/basesixfor/kakar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" selection-start-line="94" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madebylio/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madebylio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/productos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="202" column="22" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/troquel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" column="12" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/inicio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="73" column="234" selection-start-line="73" selection-start-column="234" selection-end-line="73" selection-end-column="234" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="45" column="234" selection-start-line="45" selection-start-column="218" selection-end-line="45" selection-end-column="234" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/listproductos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/editar_producto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/plantillas_html/form_productos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="263" column="39" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/js/test_slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="479" column="65" selection-start-line="479" selection-start-column="65" selection-end-line="479" selection-end-column="65" />
+          <folding>
+            <marker date="1551464930320" expanded="true" signature="7932:7948" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="30182:30239" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="39750:39807" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="55525:55582" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="62383:62399" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="67004:67061" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="74046:74062" ph="..." />
+            <marker date="1551464930320" expanded="true" signature="97089:97146" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/js/adminlio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="642" column="12" selection-start-line="642" selection-start-column="12" selection-end-line="643" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/js/test_productos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="2008" column="86" selection-start-line="2008" selection-start-column="86" selection-end-line="2008" selection-end-column="86" />
+          <folding>
+            <element signature="n#!!block;n#create_rules#0" />
+            <element signature="n#!!block;n#erase_zone_colors#0" />
+            <element signature="n#!!block;n#detectmob#0" />
+            <element signature="n#!!block;n#save_board_table#0" />
+            <element signature="n#!!block;n#save_board_table_mob#0" />
+            <element signature="n#!!block;n#charge_board_table_mob#0" />
+            <element signature="n#!!block;n#charge_board_table#0" />
+            <element signature="n#!!block;n#getCookie#0" />
+            <element signature="n#!!block;n#setCookie#0" />
+            <element signature="n#!!block;n#deleteCookie#0" />
+            <element signature="n#!!block;n#create_mob_products#0" />
+            <element signature="n#!!block;n#panel_mobile_products#0" />
+            <element signature="n#!!block;n#mobile_category_finder#0" />
+            <element signature="n#!!block;n#change_element_by_mob_matrix_object#0" />
+            <element signature="n#!!block;n#change_element_by_matrix_object#0" />
+            <element signature="n#!!block;n#ajax_show_same_mob_products#0" />
+            <element signature="n#!!block;n#ajax_show_same_products#0" />
+            <element signature="n#!!block;n#ajax_category_finder#0" />
+            <element signature="n#!!block;n#go_section#0" />
+            <element signature="n#!!block;n#crear_table_productos#0" />
+            <element signature="n#!!block;n#crear_table_productos_mobile#0" />
+            <element signature="n#!!block;n#Droppapelera#0" />
+            <element signature="n#!!block;n#delete_file_mob_productos#0" />
+            <element signature="n#!!block;n#delete_file_productos#0" />
+            <element signature="n#!!block;n#update_table_by_matrix#0" />
+            <element signature="n#!!block;n#update_table_by_mob_matrix#0" />
+            <element signature="n#!!block;n#create_file_productos#0" />
+            <element signature="n#!!block;n#create_subtotal_productos#0" />
+            <element signature="n#!!block;n#create_subtotal_productos_mob#0" />
+            <element signature="n#!!block;n#StarDragtopapelera#0" />
+            <element signature="n#!!block;n#create_drag_objects#0" />
+            <marker date="1551463209417" expanded="true" signature="52471:52528" ph="..." />
+            <marker date="1551463209417" expanded="true" signature="57661:57673" ph="..." />
+            <marker date="1551463209417" expanded="true" signature="94943:95000" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/producto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madebylio/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="69" />
+          <folding>
+            <element signature="e#643#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

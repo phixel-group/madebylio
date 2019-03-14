@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-29 01:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: base/static/js/test_productos.js:1086
+msgid "select"
+msgstr "Seleccionar"
+
+#: base/static/js/test_productos.js:2278 base/static/js/test_productos.js:2325
+msgid "Qty"
+msgstr "CANT"
+
+#: base/static/js/test_productos.js:2279 base/static/js/test_productos.js:2326
+msgid "NAME"
+msgstr "NOMBRE"
+
+#: base/static/js/test_productos.js:2280 base/static/js/test_productos.js:2327
+msgid "SIZE"
+msgstr "SIZE"
+
+#: base/static/js/test_productos.js:2281 base/static/js/test_productos.js:2328
+msgid "PRICE"
+msgstr "PRECIO"
+
+#: base/static/js/test_productos.js:4688
+msgid "Contemporany products for home"
+msgstr "Productos contemporaneos para el Hogar"
+
+#: base/static/js/test_productos.js:4773 base/static/js/test_productos.js:5166
+msgid "Letters"
+msgstr "Letras"
+
+#: base/static/js/test_productos.js:4773 base/static/js/test_productos.js:5166
+msgid "Stuff"
+msgstr "Objetos"
+
+#: base/static/js/test_productos.js:4773 base/static/js/test_productos.js:5166
+msgid "Cars"
+msgstr "Carros"
+
+#: base/static/js/test_productos.js:4773 base/static/js/test_productos.js:5166
+msgid "Fruit"
+msgstr "Frutas"
+
+#: base/static/js/test_productos.js:4773 base/static/js/test_productos.js:5166
+msgid "Characters"
+msgstr "Personajes"
+
+#: base/static/js/test_productos.js:4773 base/static/js/test_productos.js:5166
+msgid "Sheets"
+msgstr "Láminas"
+
+#: base/static/js/test_productos.js:4786
+msgid "Plates"
+msgstr "Platos"
+
+#: base/static/js/test_productos.js:4786
+msgid "Spoons"
+msgstr "Cucharas"
+
+#: base/static/js/test_productos.js:4786
+#, fuzzy
+#| msgid "Forks"
+msgid "Forks"
+msgstr "Tenedores"
+
+#: base/static/js/test_productos.js:4786
+msgid "Teapot"
+msgstr "Tazas"
+
+#: base/static/js/test_productos.js:4786
+msgid "Mugs"
+msgstr "Pocillos"
+
+#: base/static/js/test_productos.js:4797
+msgid "Diadem"
+msgstr "Diademas"
+
+#: base/static/js/test_productos.js:4797
+msgid "Earings"
+msgstr "Aretes"
+
+#: base/static/js/test_productos.js:4807
+msgid "Clocks"
+msgstr "Relojes"
+
+#: base/static/js/test_productos.js:4807
+msgid "Pictures"
+msgstr "Pinturas"
+
+#: base/static/js/test_productos.js:5665
+msgid "Click on the categories and then the product types!"
+msgstr "Dale click a las categorias y luego los tipos de producto!"
+
+#: base/static/js/test_productos.js:5678
+msgid ""
+"Arrastra los productos al tablero, puedes rotarlos o cambiar su tamaño"
+"a tu gusto.!!!"
+msgstr ""

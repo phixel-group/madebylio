@@ -1,0 +1,59 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="login">
+          <h1>{% trans "Welcome Back!"%}</h1>
+          <form method="post">
+            {% csrf_token %}
+            <!-- Mostrando errores en formulario-->
+            {% if form.errors %}
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <div class="alert alert-danger">
+                            <strong>{{ error|escape }}</strong>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+                {% for error in form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <!-- Fin errores formulario-->
+            <div class="field-wrap">
+            <label>
+              {% trans "User"%} <span class="req">*</span>
+            </label>
+            <input type="text" required autocomplete="off" name="username">
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              {% trans "Password"%}<span class="req">*</span>
+            </label>
+            <input type="password" required autocomplete="off" name="password">
+          </div>
+          {% comment %}<p class="forgot"><a href="{% url 'password_reset' %}">{% trans "Forgot Password?"%}</a></p>{% endcomment %}
+          <p class="forgot"><a href="{% url 'login:registro' %}">Registrate</a></p>
+          <input type="submit" value="Ingresar" class="button button-block">
+
+          </form>
+
+        </div>
+    <script>
+        window.location.hash="no-back-button";
+        window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+        window.onhashchange=function(){window.location.hash="no-back-button";}
+    </script>
+</body>
+</html>

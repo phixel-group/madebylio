@@ -1,0 +1,459 @@
+#inicio-slider-hoz
+{
+	width: 68.15%;
+	height:32%;
+	left: 9%;
+	top:  18%;
+	position:absolute;
+	color:white;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#total-slider
+{
+	width: 400%;
+	height: 100%;
+	background-color: red;
+	position: absolute;
+	color: #fff;
+	animation: moveslider 16s steps(4) infinite;
+}
+@keyframes moveslider {
+    from
+    {
+		left:0;
+    }
+    to
+    {
+        left: -400%;
+    }
+}
+#slider-fucsia
+{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	background-color: #D4145A;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+#slider-fucsia #white-square-slider
+{
+	width: 44%;
+	height: 80%;
+	position: absolute;
+	top:8%;
+	left:4.4%;
+	border-radius: 15%;
+	background-color: white;
+}
+#slider-fucsia #text-slider
+{
+	width: 41%;
+	height: auto;
+	position: absolute;
+	top:auto;
+	left:52.4%;
+}
+#text-slider p span
+{
+	font-family: BROMO;
+	font-size: 2.5vw;
+}
+
+#slider-yellow
+{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:25%;
+	background-color: #FED800;
+	color: #662D91;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+#slider-yellow #white-square-slider
+{
+	width: 35%;
+	height: 80%;
+	position: absolute;
+	top:7.7%;
+	left:1.9%;
+	border-radius: 15%;
+	background-color: white;
+}
+#slider-yellow #text-slider
+{
+	width: 48%;
+	height: auto;
+	position: absolute;
+	top:auto;
+	left:39.5%;
+}
+
+#slider-blue
+{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:50%;
+	background-color: #00A6D8;
+	color: #FFFFFF;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+#slider-blue #white-square-slider
+{
+	width: 35%;
+	height: 80%;
+	position: absolute;
+	top:7.7%;
+	left:1.9%;
+	border-radius: 15%;
+	background-color: white;
+}
+#slider-blue #text-slider
+{
+	width: 48%;
+	height: auto;
+	position: absolute;
+	top:auto;
+	left:39.5%;
+}
+#slider-green
+{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:75%;
+	background-color: #D9E021;
+	color: #4d4d4d;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+#slider-green #white-square-slider
+{
+	width: 35%;
+	height: 80%;
+	position: absolute;
+	top:7.7%;
+	left:1.9%;
+	border-radius: 15%;
+	background-color: white;
+}
+#slider-green #text-slider
+{
+	width: 48%;
+	height: auto;
+	position: absolute;
+	top:auto;
+	left:39.5%;
+}
+
+
+#inicio-widget
+{
+	width: 31%;
+	height:auto;
+	left: 12%;
+	top:  47%;
+	background-color:transparent;
+	background:url('../img/svg/inicio/widget-eventos/cont2tierra.svg');
+	background-size:100% 100%;
+	position:absolute;
+	color:black;
+}
+#inicio-widget-svg
+{
+	width:100%;
+	height:auto;
+}
+#inicio-novedades
+{
+	width: 10.7%;
+	height:4.94%;
+	left: 16.35%;
+	top:  50%;
+	background-color:transparent;
+	position:absolute;
+	color:#ffffff;
+	font-family: BROMO;
+	font-size: 2.5vw;/*pendiente tam fuente relativa*/
+}
+#inicio-eventos
+{
+	width: 7.61%;
+	height:2.86%;
+	left: 29.1%;
+	top:  50%;
+	background-color:transparent;
+	position:absolute;
+	color:#FCEE21;
+	font-family: shakeoffchunki; /*shakeoff*/
+	font-size: 1.5vw;/*pendiente tam fuente relativa*/
+}
+#inicio-fecha /*bandera a la derecha, cambiar interlineado 17 abril*/
+{
+	width: 4.76%;
+	height:9.4%;
+	left: 15%;
+	top:  55%;
+	background-color:transparent;
+	position:absolute;
+	color:#FFFFFF;
+	text-align:right;
+	font-family: shakeoffchunki; /*shakeoff*/
+	font-size: 17pt;/*pendiente tam fuente relativa*/
+}
+#inicio-fechaspan /*cuadrar*/
+{
+	width: 4.76%;
+	height:1.95%;
+	left: 16.5%;
+	top:  67%;
+	color:#FFFFFF;
+	position:absolute;
+	font-family: shakeoff;
+	font-size: 9pt;
+}
+#inicio-feria
+{
+	width: 22%;
+	height:2.6%;
+	left: 21.09%;
+	top:  55.9%;
+	background-color:transparent;
+	position:absolute;
+	color:#FFFFFF;
+	font-family: shakeoff; /*shakeoff*/
+	font-size: 10pt;/*pendiente tam fuente relativa*/
+}
+#inicio-concurso
+{
+	width: 18.22%;
+	height: 5.6%;
+	left: 21.09%;
+	top:  58.9%;
+	background-color:transparent;
+	position:absolute;
+	color:#FCEE21;
+	font-family: BROMO; /*shakeoff*/
+	font-size: 14pt;/*pendiente tam fuente relativa*/
+}
+#inicio-pabellon
+{
+	width: 19.76%;
+	height: 2.73%;
+	left: 21.08%;
+	top:  65.18%;
+	background-color:transparent;
+	position:absolute;
+	color:#FFFFFF;
+	font-family: shakeoff;/*shakeoff*/
+	font-size: 10pt;/*pendiente tam fuente relativa*/
+}
+#fondo-reproductor
+{
+	width: 40%;
+	height:44%;
+	left: 8%; /*40% medida inicial */
+	top:  47%;
+	background-color:transparent;
+	position:absolute;
+	background:url('../img/svg/inicio/reproductor/cont3tierra.svg') no-repeat;
+	background-size:100% 100%;
+	color:black;
+}
+
+#fondo-facebookpage
+{
+	width: 30%;
+	height:40%;
+	left: 47%; /*40% medida inicial */
+	top:  49%;
+	background-color:#662d91;
+	border-radius: 0 0 15% 15% ;
+	position:absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.facebookpage
+{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top:0;
+}
+#inicio-reproductor
+{
+	width: 30%;
+	height:auto;
+	left: 13%; /*40% medida inicial */
+	top:  51.5%;
+	position: absolute;
+}
+
+#inicio-play-svg
+{
+	width: 100%;
+	height:100%;
+	left: 0; /*40% medida inicial */
+	top:  0;
+	margin-top:4%;
+	margin-left:10%;
+	background-color:transparent;
+	position:absolute;
+	background:url('../img/svg/inicio/reproductor/reproductor.svg') no-repeat;
+	background-size:80% 80%;
+	color:black;
+}
+#inicio-face-logo
+{
+	width: 3%;
+	height:5%;
+	left: 16%;
+	top:  86.5%;
+	background-color:red;
+	background:url('../img/png/inicio/redessociales/logofacebook.svg');
+	background-size:100% 100%;
+	position:absolute;
+	color:black;
+}
+
+#inicio-instagram-logo
+{
+	width: 3%;
+	height:5%;
+	left: 16%;
+	top:  81%; /**/
+	background-color:orange;
+	background:url('../img/png/inicio/redessociales/logoinstagram.svg');
+	background-size:100% 100%;
+	position:absolute;
+	color:black;
+}
+
+#inicio-texto-face /*texto redes sociales*/
+{
+	width: 14%;
+	height:5%;
+	left: 20%;
+	top:  86.5%;
+	background-color:transparent;
+	position:absolute;
+	color:#E0225F;
+	font-size: 1.5vw;/*pendiente tam fuente relativa*/
+}
+
+#inicio-texto-instagram /*texto redes sociales*/
+{
+	width: 14%;
+	height:5%;
+	left: 20%;
+	top:  81%;
+	background-color:transparent;
+	position:absolute;
+	color:#E0225F;
+	font-size: 1.5vw;/*pendiente tam fuente relativa*/
+}
+
+#inicio-txt-home1 /*texto home1*/
+{
+	width: 30%;
+	height:5%;
+	left: 15%;
+	top:  12%;
+	background-color:transparent;
+	position:absolute;
+	color:#E0225F;
+	font-family: shakeoffchunki;
+	font-size: 1vw;/*pendiente tam fuente relativa*/
+}
+
+#inicio-txt-home2 /*texto home2*/
+{
+	width: 26%;
+	height:5%;
+	left: 15%;
+	top:  4%;
+	background-color:transparent;
+	position:absolute;
+	color:#00BCAD;
+	font-family: BROMO;
+	letter-spacing: 3pt;
+	font-size: 2vw;/*pendiente tam fuente relativa*/
+}
+
+#inicio-txt-home2 span
+{
+	color:#E0225F;
+	font-family: BROMO;
+	letter-spacing: 3pt;
+	font-size: 2.5vw;/*pendiente tam fuente relativa*/
+}
+#show-facebook
+{
+	width: 100%;
+	height: 5vh;
+	background:url('../img/png/inicio/redessociales/logofacebook.svg');
+	background-size:100% 100%;
+	margin-top: 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+}
+#show-facebook:hover
+{
+	background-color: #FFFFFF;
+}
+#show-facebook:active
+{
+	background-color: #FFFFFF;
+}
+.white-background
+{
+	background: #ffffff url('../img/png/inicio/redessociales/logoinstagram.svg');
+}
+#show-instagram
+{
+	width: 100%;
+	height: 5vh;
+	position: absolute;
+	background:url('../img/png/inicio/redessociales/logoinstagram.svg');
+	background-color: transparent;
+	background-size:100% 100%;
+	margin-top: 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+}
+#show-instagram:hover
+{
+	background-color: #FFFFFF;
+}
+#show-instagram:active
+{
+	background-color: #FFFFFF;
+}
+#cont-show-social
+{
+	width: 3vw;
+	height: auto;
+	position: absolute;
+	top:3%;
+	left: 1%;
+
+}

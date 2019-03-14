@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 232 657" style="enable-background:new 0 0 232 657;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00BCAD;}
+	.st1{opacity:0.63;fill:#FFFFFF;}
+	.home_menu{display:none;}
+	.productos_menu{display:none;}
+	.galeria_menu{display:none;}
+	.contactenos_menu{display:none;}
+</style>
+<symbol  id="contacto_1_" viewBox="-90.7 -87.1 181.4 174.2">
+	<use xlink:href="#galeria_1_"  width="181.4" height="174.2" id="XMLID_724_" x="-90.7" y="-87.1" style="overflow:visible;"/>
+</symbol>
+<symbol  id="contenedor" viewBox="-115.8 -328.1 231.6 656.2">
+	<path id="XMLID_726_" class="st0" d="M4.7-328.1h74.9c3.5,0-26.8,21.4-12,51.2c16.8,33.9,37.7,34,23.2,93.4
+		c-6.4,26.2-24.8,28.7-16.6,106.6c5.2,49.1,60.3,78.3,26.7,165.1c-23.3,60.2,52.3,80.3-10.7,185.1c-28.3,47.1-85.4,54.8-85.4,54.8
+		s-66.4-7.3-94.7-54.4c-63-104.8,12.6-124.9-10.7-185.1c-33.6-86.8,21.5-116,26.7-165.1c8.3-78-10.1-80.4-16.6-106.6
+		c-14.5-59.3,6.4-59.5,23.2-93.4c14.8-29.8-15.5-51.2-12-51.2h74.9L4.7-328.1"/>
+</symbol>
+<symbol  id="galeria_1_" viewBox="-90.7 -87.1 181.4 174.2">
+	<path id="XMLID_722_" class="st1 galeria_menu" d="M-90.7-56.1c6.4,26.2,24.8,28.7,16.6,106.6C-79.3,99.6,79.3,99.1,74.1,50
+		C65.9-28,84.3-30.4,90.7-56.6c0,0-47.2-36.3-112.3-29.7S-90.7-56.1-90.7-56.1z"/>
+</symbol>
+<symbol  id="home_1_" viewBox="-115.8 -120 231.6 239.9">
+	<path id="XMLID_718_" class="st1 home_menu" d="M100.8-120c-1.1,2.9-2,5.8-2.7,8.6c-13.5,53.8,51.9,76.8-8,176.5C61.8,112.2,4.7,120,4.7,120
+		s-66.4-7.3-94.7-54.4c-63-104.8,12.6-124.9-10.7-185.1"/>
+</symbol>
+<symbol  id="producto" viewBox="-111.7 -84.7 223.3 169.4">
+	<path id="XMLID_720_" class="st1 productos_menu" d="M-88.4-84.7c-15.9,31-36.1,63.5-12.5,124.5c23.3,60.2,178.3,59.7,201.6-0.5
+		C122.6-17,108-48.8,88.6-84.7H-88.4z"/>
+</symbol>
+<g id="cont-azul">
+	
+		<use xlink:href="#contenedor"  width="231.6" height="656.2" id="XMLID_576_" x="-115.8" y="-328.1" transform="matrix(1 0 0 -1 116.0003 328.5)" style="overflow:visible;"/>
+</g>
+<g id="home">
+	
+		<use xlink:href="#home_1_"  width="231.6" height="239.9" id="XMLID_691_" x="-115.8" y="-120" transform="matrix(1 0 0 -1 116.0003 120.3565)" style="overflow:visible;"/>
+</g>
+<g id="productos">
+	
+		<use xlink:href="#producto"  width="223.3" height="169.4" id="XMLID_497_" x="-111.7" y="-84.7" transform="matrix(1 0 0 -1 116.048 279.6646)" style="overflow:visible;"/>
+</g>
+<g id="galeria">
+	
+		<use xlink:href="#contacto_1_"  width="181.4" height="174.2" id="XMLID_471_" x="-90.7" y="-87.1" transform="matrix(1 0 0 -1 116.0003 455.4198)" style="overflow:visible;"/>
+</g>
+<g id="contacto">
+	<path id="XMLID_603_" class="st1 contactenos_menu" d="M120.7,656.6h74.9c3.5,0-26.8-21.4-12-51.2c16.8-33.9,37.7-34,23.2-93.4
+		c-6.4-26.2-175-26.7-181.4-0.5c-14.5,59.3,6.4,59.5,23.2,93.4c14.8,29.8-15.5,51.2-12,51.2h74.9L120.7,656.6"/>
+</g>
+</svg>

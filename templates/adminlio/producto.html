@@ -1,0 +1,101 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+
+<!--
+<div  class="producto-findbtn">
+
+        <object id="findbtn" style="width:100%; height: 100%" data="{% static 'img/lioadmin/en_comun/boton_buscar_menu_02.svg'%}"  type="image/svg+xml">
+
+        </object>
+
+</div>
+
+<div id="mask-producto-findbtn" class="troquel-findbtn">
+
+</div>
+
+<div class="producto-addbtn">
+
+        <object id="findbtn" style="width:100%; height: 100%" data="{% static 'img/lioadmin/en_comun/boton_nuevo_menu_02.svg'%}"  type="image/svg+xml">
+
+        </object>
+
+</div>
+
+<div id="mask-producto-addbtn" class="producto-addbtn">
+
+</div> -->
+
+<div class="upload-process">
+
+        <object id=process" style="width:100%; height: 100%" data="{% static 'img/lioadmin/en_comun/cont_proceso.svg'%}"  type="image/svg+xml">
+
+        </object>
+
+</div>
+
+<div class="producto-check">
+
+        <object id="checkproducto" style="width:100%; height: 100%" data="{% static 'img/lioadmin/en_comun/boton_ok.svg'%}"  type="image/svg+xml">
+
+        </object>
+
+</div>
+
+<div id="mask-producto-check" class="producto-check">
+
+</div>
+
+<div class="producto-newproducto">
+
+        <!--<object id=newproducto" style="width:100%; height: 100%" data="{% static 'img/lioadmin/nuevo/cont_formulario_nuevo.svg'%}"  type="image/svg+xml">
+
+        </object>-->
+
+        <div id="cont-createproductform">
+            {% include 'plantillas_html/form_productos.html' %}
+
+        </div>
+</div>
+
+<div id="add-color">
+    Add color!
+</div>
+
+<input id="how-zones" type="hidden">
+<input id="save-troquel" type="hidden">
+<div id="crear-producto-btn" type="button" class="pretty-btn">
+                Crear
+</div>
+<div id="volver-troquel">Volver</div>
+<div id="cont-add-color">
+    {% include 'plantillas_html/form_colors.html' %}
+</div>
+
+<!-- menu lateral admin-->
+    <div class="lateral-menu">
+        <ul>
+            <li>
+            <a class="salir-li" href="{% url 'adminlio:homeadmin' %}">{% trans 'Home' %}</a>
+        </li>
+        <li >
+            <a class="salir-li" href="{% url 'adminlio:listproductos' %}">{% trans 'Product List' %}</a>
+        </li>
+            <li >
+            <a class="salir-li" href="{% url 'adminlio:creategallery' %}">{% trans 'Create gallery' %}</a>
+        </li>
+         <li >
+            <a class="salir-li" href="{% url 'adminlio:listgallery' %}">{% trans 'List gallery' %}</a>
+        </li>
+            <li>
+                <a class="salir-li" href="{% url 'adminlio:salir' %}">{% trans 'Log Out' %}</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+

@@ -1,0 +1,99 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+
+    <style>
+        /*FUENTES TIPOGRAFICAS PARA LA PAGINA*/
+        @font-face
+        {
+            font-family: shakeoffchunki;
+            src: url("{% static '/fonts/KGShakeitOffChunky.ttf' %}");
+        }
+
+        @font-face
+        {
+            font-family: BROMO;
+            src: url("{% static 'fonts/BROMO.otf' %}");
+        }
+
+        @font-face
+        {
+            font-family: shakeoff;
+            src: url("{% static 'fonts/KGShakeitOff.ttf' %}");
+        }
+
+        /*ESTILOS SKROLLR*/
+        *{
+            margin:0;
+            padding: 0;
+            font-family: shakeoffchunki;
+        }
+        /* Fondo deslizable */
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            height:100%;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont-epayco-btn" style="width: 30%;height: 60%; background-color: #30defc; display: flex; flex-direction: column;
+    align-items: center;
+    justify-content: center; position: absolute;top: 20%;left: 35%;">
+        <div style="width: 80%;">
+            <img src="{% static 'img/page_segure.jpg' %}" style="width: 100%; height:auto;">
+        </div>
+        <div>
+            <form id="epayco-btn">
+                <script src="https://s3-us-west-2.amazonaws.com/epayco/v1.0/checkoutEpayco.js"
+                    class="epayco-button"
+                    data-epayco-key="01c977e95e9bdb6e0e509c4e2677a4a8"
+                    data-epayco-amount="{{ total }}"
+                    data-epayco-name="Made By Lio Shop"
+                    data-epayco-description="Productos para el hogar!"
+                    data-epayco-currency= {{ cambio }}
+                    data-epayco-country="au"
+                    data-epayco-test="true"
+                    data-epayco-response="https://madebylio.com/pagos/epaycoresponse"
+                    data-epayco-confirmation="https://madebylio.com/pagos/epaycoconfirmacion" >
+                </script>
+            </form>
+
+        </div>
+    </div>
+
+    <!--<form id="frm_botonePayco" name="frm_botonePayco" method="post" action="https://secure.payco.co/checkout.php">
+    <input name="p_cust_id_cliente" type="hidden" value="20988">
+    <input name="p_key" type="hidden" value="42fbbd02fb640e19d4efe7e4a546dcab5a6de976">
+    <input name="p_id_invoice" type="hidden" value="">
+    <input name="p_description" type="hidden" value="producto madebylio">
+    <input name="p_currency_code" type="hidden" value="COP">
+    <input name="p_amount" id="p_amount" type="hidden" value="1.00">
+    <input name="p_tax" id="p_tax" type="hidden" value="0">
+    <input name="p_amount_base" id="p_amount_base" type="hidden" value="0">
+    <input name="p_test_request" type="hidden" value="FALSE">
+    <input name="p_url_response" type="hidden" value="https://test.madebylio.com/pagos/epaycoresponse">
+    <input name="p_url_confirmation" type="hidden" value="https://test.madebylio.com/pagos/confirmacion">
+    <input name="p_signature" type="hidden" id="signature"  value="17860b31cd20ce4e224500c1795e9b39" />
+    <input name="idboton"type="hidden" id="idboton"  value="5672" />
+    <input type="image" id="imagen" src="https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn4.png" />
+</form>-->
+<script type="text/javascript">
+    $('#epayco-btn').on('click',function () {
+       //evento para borrar interfaz de boton y presentacion de compras
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lio admin</title>
+    <script>
+         var static_url = "{% get_static_prefix %}";
+        var media_url = "{% get_media_prefix %}";
+        var juipo = 'probando';
+    </script>
+</head>
+<body>
+<div>Registrate</div>
+    <form method="post">
+            {% csrf_token %}
+            {% if form.errors %}
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <div class="alert alert-danger">
+                            <strong>{{ error|escape }}</strong>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+                {% for error in form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                {% endfor %}
+            {% endif %}
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+               {% trans "Username"%}<span class="req">*</span>
+              </label>
+              <input type="text" required="" name="username" maxlength="150" id="id_username" autofocus="">
+            </div>
+            <div class="field-wrap">
+              <label>
+                {% trans "First Name"%}<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" name="first_name">
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              {% trans "Last Name"%} <span class="req">*</span>
+            </label>
+            <input type="text" required autocomplete="off" name="last_name">
+          </div>
+              <div class="field-wrap">
+            <label>
+              {% trans "email"%} <span class="req">*</span>
+            </label>
+            <input type="email" required autocomplete="off" name="email">
+          </div>
+            <div class="field-wrap">
+            <label>
+              {% trans "color"%} <span class="req">*</span>
+            </label>
+            <input type="text" required autocomplete="off" name="color">
+          </div>
+          <div class="field-wrap">
+            <label>
+              {% trans "password"%}<span class="req">*</span>
+            </label>
+            <input type="password" required autocomplete="off" name="password1">
+          </div>
+
+           <div class="field-wrap">
+            <label>
+              {% trans "password"%}<span class="req">*</span>
+            </label>
+            <input type="password" required autocomplete="off" name="password2">
+          </div>
+
+          <input type="submit" class="button button-block" value="Registrarse">
+
+          </form>
+           <p class="forgot"><a href="{% url 'login:login' %}">{% trans "Go to login"%}</a></p>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    <script>
+        window.location.hash="no-back-button";
+        window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+        window.onhashchange=function(){window.location.hash="no-back-button";}
+    </script>
+</body>
+</html>

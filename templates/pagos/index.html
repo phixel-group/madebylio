@@ -1,0 +1,127 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagos</title>
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/productos.css' %}">
+    <style>
+        @font-face
+        {
+            font-family: shakeoffchunki;
+            src: url('{% static 'fonts/KGShakeitOffChunky.ttf' %}');
+        }
+
+        @font-face
+        {
+            font-family: BROMO;
+            src: url('{% static 'fonts/BROMO.otf' %}');
+        }
+
+        @font-face
+        {
+            font-family: shakeoff;
+            src: url('{% static 'fonts/KGShakeitOff.ttf' %}');
+        }
+        span#title-voice
+        {
+            font-family: shakeoff;
+            font-size: 1em;
+            color:white;
+            border-radius: 5px;
+            background-color: #1bf70c;
+            padding: 5px;
+            width: auto;
+        }
+        td input[type=text],td input[type=number]
+        {
+            width: 50px;
+        }
+        .show-price-producto
+        {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    </style>
+    <script type="text/javascript" src="{% static 'js/productos.js' %}"></script>
+</head>
+<body>
+<div id="cont-tabla-compras" style="width: 90%; position: absolute; left: 5%;">
+    <h1><span id="title-voice">Factura de compra!</span></h1>
+    <form  action="{% url 'pagos:compra' %}" method="post" style="border-radius:10px; background-color: #ececec;padding: 20px;">
+    {% csrf_token %}
+
+        {{ crearzona.management_form }}
+
+        {{ form }}
+       <br>
+
+    <!--{{ crearzona.as_table }}-->
+    <br>
+    <br>
+    <table>
+    {% for form in crearzona%}
+        <tr>
+            {% for field in form.visible_fields %}
+                {% if  "show_price_producto" in field.name or "tamaño_producto" in field.name%}
+
+                    <td>
+                    {{ field.name }}
+                    </td>
+                    <td class="show-price-producto">
+                        {{ field.value }}
+                    <input type="hidden" id="{{ field.id_for_label }}" name="{{ field.html_name }}" value="{{ field.value }}">
+                    </td>
+                {% else %}
+                    <td>
+                    {{ field.name }}
+                    </td>
+                    <td>
+                        {{ field.as_widget }}
+                    </td>
+                {% endif %}
+
+            {% endfor %}
+                <td>
+                    <button class="btn-delete-compra" type="button" style="background-color: red; color: white;border-radius: 3px;padding: 5px;border:none">delete</button>
+                </td>
+        </tr>
+
+    {% endfor %}
+    </table>
+        <!--{% for yum in crearzona %}
+             {{ yum.as_ul }}
+        {% endfor %}-->
+    <br>
+    <div >
+        <label id="total-compra"></label>
+        <input id="input-total-compra" name="total-compra" type="hidden">
+        <input id="input-cambio" name="input-cambio" type="hidden">
+        <script type="text/javascript">
+            var cambio = getCookie('cambio');
+            if(cambio === 'AUD' || cambio === 'USD' || cambio === 'Euro')
+            {
+                cambio = 'usd';
+            }
+            else
+            {
+                cambio = 'cop';
+            }
+            document.querySelector('#input-cambio').value = cambio;
+        </script>
+    </div>
+    <button id="add-compra-producto" type="button" style="background-color: #30defc; color: white;border-radius: 3px;padding: 5px;border:none">Add product</button>
+    <a id="cancel-compra-producto" href="{% url 'home' %}" style="background-color: #30defc; color: white;border-radius: 3px;padding: 5px;border:none;text-decoration: none;">Cancelar compra</a>
+        <input id='btn-submit-compra' type="submit" value="Aceptar" style="background-color: #fc20c1; color: white;border-radius: 3px;padding: 5px;border:none" />
+</form>
+</div>
+
+
+<script type="text/javascript" src="{% static 'js/indexpagos.js' %}"></script>
+</body>
+</html>

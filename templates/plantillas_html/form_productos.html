@@ -1,0 +1,64 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<form id="create_product_form" action="" method="post" onsubmit="return validate_productform()" enctype="multipart/form-data">{% csrf_token %}
+            <div>{{ form.as_p }}</div>
+
+            <table class="table">
+                {{ crearzona.management_form }}
+
+                {% for form in crearzona.forms %}
+                    {% if forloop.first %}
+                        <thead>
+                        <tr>
+                            {% for field in form.visible_fields %}
+                                <th>{{ field.label|capfirst }}</th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                    {% endif %}
+                    <tr class="{% cycle row1 row2 %} formset_row">
+                        {% for field in form.visible_fields %}
+                            <td>
+                                {# Include the hidden fields in the form #}
+                                {% if forloop.first %}
+                                    {% for hidden in form.hidden_fields %}
+                                        {{ hidden }}
+                                    {% endfor %}
+                                {% endif %}
+                                {{ field.errors.as_ul }}
+                                {{ field }}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </table>
+            <!--<div>
+                <input id="show-patterns" type="checkbox">
+            </div>-->
+            <div id="cont-info-troquel">
+                <object id="zonas-info-troquel"  data="" type="image/svg+xml"></object>
+            </div>
+            <!--
+            <div id="cont-editzones">
+                <table id="edit-zone-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Color</th>
+                            <th>Imagen</th>
+                            <th>Change</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-zone">
+                    <tr>
+                        <th>hola</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <input id="change-selects" type="button" value="Change"/>-->
+            <input id="saveproducto" style="opacity: 0;" type="submit" value="Save"/>
+        </form>

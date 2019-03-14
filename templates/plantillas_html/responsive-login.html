@@ -1,0 +1,77 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+ {% load socialaccount %}
+{% providers_media_js %}
+<form class="ajax-login-form" action="" method="POST">
+            {% csrf_token %}
+            <!-- Mostrando errores en formulario-->
+            {% if form.errors %}
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <div class="alert alert-danger">
+                            <strong>{{ error|escape }}</strong>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+                {% for error in form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <!-- Fin errores formulario-->
+
+                <div class="cont-log-reg-data">
+                    <div class="row-login-form dark-blue-text">
+                        <div class="column2left"><!-- 2 columnas por fila-->
+                            <label for="username">{% trans "User or email"%} <span class="req">*</span>
+                            </label>
+                        </div>
+                        <div class="column2right">
+                            <input class="inputs-login" id="username" type="text" required autocomplete="off" name="username" autofocus>
+                        </div>
+                    </div>
+                    <div class="row-login-form dark-blue-text">
+                        <div class="column2left">
+                            <label for="password">{% trans "Password"%}<span class="req">*</span>
+                            </label>
+                        </div>
+                        <div class="column2right">
+                            <input id="password" class="inputs-login" type="password" required autocomplete="off" name="password">
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="row-login-form dark-blue-text">
+                        <div class="column2">
+                            <p style="font-size: 0.8em;">No estas registrado?  <span class="go2reg" style="padding: 3px;border-radius:3px;background-color: white;color: #31acf7;-webkit-touch-callout: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;">¡ registrate aquí !</span></p>
+                        </div>
+                        <div class="column2">
+
+                        </div>
+                    </div>
+
+                    <div class="row-login-form dark-blue-text">
+                        <div class="column2">
+                            <p style="font-size: 0.8em;"><a style="padding: 3px;border-radius:3px;background-color: white;color: #31acf7;-webkit-touch-callout: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;" href="{% url 'password_reset' %}">{% trans "Forgot Password?"%}</a></p>
+                        </div>
+                        <div class="column2">
+                             <a href="{% provider_login_url "facebook" method="js_sdk" %}">Facebook Connect</a>
+                        </div>
+                    </div>
+                     <br>
+                    <div class="row-login-form dark-blue-text">
+                        <div class="column2">
+                            <input style="padding: 5px;border-radius: 5px;color: #31acf7;background-color: white" type="submit" value="Ingresar">
+                        </div>
+                        <div class="column2">
+
+                        </div>
+                    </div>
+
+                </div>
+</form>
+          {% comment %}<p class="forgot"><a href="{% url 'password_reset' %}">{% trans "Forgot Password?"%}</a></p>{% endcomment %}

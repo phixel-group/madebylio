@@ -1,0 +1,15 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+
+<ul class="user-profile">
+    <li>
+        <p style="text-align: Left">Bienvenido <span id="name-profile">{{ transfer }}</span></p>
+    </li>
+    <li>
+        <a class="btn-mob-salir simple-link font-white" href="{% url 'salirhome' %}">Salir</a>
+    </li>
+</ul>
+

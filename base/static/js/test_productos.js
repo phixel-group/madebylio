@@ -1119,6 +1119,25 @@ function create_mob_products(data,zones)
                                     svg_prod[x].querySelector('#'+ sss[ii].id.slice(5)+' image').setAttribute('xlink:href','/media/'+zones[x][ii]['color_zona__file_color']);
                                     svg_prod[x].querySelector('#'+ sss[ii].id.slice(5)+' image').setAttribute('data-realimage',zones[x][ii]['color_zona__file_color']);
                             }
+                              //MANEJANDO PATRONES
+                                var circ = svg_prod[x].querySelector("g#patrones");
+                                    var rayas = svg_prod[x].querySelector("g#patrones2");
+
+                                        if(data[x].pattern_producto=='')//
+                                        {
+                                            circ.style.display = 'none';//
+                                            rayas.style.display = 'none';
+                                        }
+                                        else if(data[x].pattern_producto=='pat1')
+                                        {
+                                            circ.style.display = 'inline';
+                                            rayas.style.display = 'none';
+                                        }
+                                        else
+                                            {
+                                                circ.style.display = 'none';
+                                                rayas.style.display = 'inline';
+                                            }
                             cont_products[x].append(svg_prod[x]);
 
                         });

@@ -442,8 +442,9 @@ var matrix_display_images = function (where_object)//OBJETO QUE MUESTRA IMAGENES
         var play_video = [];
         var iconplay = [];
        for(var prod = 0; prod<data.length;prod++)
-        {
 
+        {
+            console.log('VALOR: ' + data[prod].video_producto);
             //SERIALIZAMOS LOS DATOS DE LOS OBJECTS Y LOS CONDENSAMOS EN LOS DIV DEL SLIDER
             if(data[prod].troquel_producto__editable_troquel == 'YES')//verificamos si el producto es editalble o no
             {

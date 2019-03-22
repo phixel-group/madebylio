@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc259c2a-417a-4dc4-a5f9-9dd14a8f395e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminlio/static/css/troquel.css" beforeDir="false" afterPath="$PROJECT_DIR$/adminlio/static/css/troquel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/static/js/test_productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/base/static/js/test_productos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/static/js/test_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/base/static/js/test_slider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,26 +56,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5610">
+            <state relative-caret-position="499">
               <caret line="374" selection-start-line="374" selection-end-line="374" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/madebylio/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/adminlio/troquel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="75">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminlio/static/js/adminlio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminlio/static/js/forms.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/adminlio/static/css/troquel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="317" column="22" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adminlio/static/css/adminlio.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/madebylio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -85,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminlio/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+            <state relative-caret-position="405">
+              <caret line="107" column="73" lean-forward="true" selection-start-line="107" selection-start-column="73" selection-end-line="107" selection-end-column="73" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -95,65 +132,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pagos/models.py">
+        <entry file="file://$PROJECT_DIR$/base/static/js/test_slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="152">
+              <caret line="448" column="12" lean-forward="true" selection-start-line="448" selection-start-column="12" selection-end-line="449" selection-end-column="13" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#1407#11342#0" />
+                <element signature="e#11560#21278#0" />
+                <element signature="e#46633#75603#0" />
+                <element signature="e#75816#88494#0" />
+                <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <marker date="1553274480375" expanded="true" signature="7932:7948" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="30246:30303" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="39814:39871" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="55589:55646" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="62447:62463" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="67068:67125" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="74110:74126" ph="..." />
+                <marker date="1553274480375" expanded="true" signature="97153:97210" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/models.py">
+        <entry file="file://$PROJECT_DIR$/base/static/js/test_productos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="154">
+              <caret line="1125" column="74" lean-forward="true" selection-start-line="1125" selection-start-column="74" selection-end-line="1125" selection-end-column="74" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="n#!!block;n#create_rules#0" />
+                <element signature="n#!!block;n#erase_zone_colors#0" />
+                <element signature="n#!!block;n#detectmob#0" />
+                <element signature="n#!!block;n#save_board_table#0" />
+                <element signature="n#!!block;n#save_board_table_mob#0" />
+                <element signature="n#!!block;n#charge_board_table_mob#0" />
+                <element signature="n#!!block;n#charge_board_table#0" />
+                <element signature="n#!!block;n#renderPage#0" />
+                <element signature="n#!!block;n#getCookie#0" />
+                <element signature="n#!!block;n#setCookie#0" />
+                <element signature="n#!!block;n#deleteCookie#0" />
+                <element signature="n#!!block;n#create_subcategories#0" />
+                <element signature="n#!!block;n#create_prod2board#0" />
+                <element signature="n#!!block;n#panel_mobile_products#0" />
+                <element signature="n#!!block;n#change_element_by_mob_matrix_object#0" />
+                <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+                <element signature="n#!!block;n#change_element_by_matrix_object#0" />
+                <element signature="n#!!block;n#ajax_show_same_mob_products#0" />
+                <element signature="n#!!block;n#ajax_show_same_products#0" />
+                <element signature="n#!!block;n#ajax_category_finder#0" />
+                <element signature="n#!!block;n#go_section#0" />
+                <element signature="n#!!block;n#crear_table_productos#0" />
+                <element signature="n#!!block;n#crear_table_productos_mobile#0" />
+                <element signature="n#!!block;n#Droppapelera#0" />
+                <element signature="n#!!block;n#delete_file_mob_productos#0" />
+                <element signature="n#!!block;n#delete_file_productos#0" />
+                <element signature="n#!!block;n#update_table_by_matrix#0" />
+                <element signature="n#!!block;n#update_table_by_mob_matrix#0" />
+                <element signature="n#!!block;n#create_file_productos#0" />
+                <element signature="n#!!block;n#create_subtotal_productos#0" />
+                <element signature="n#!!block;n#create_subtotal_productos_mob#0" />
+                <element signature="n#!!block;n#StarDragtopapelera#0" />
+                <element signature="n#!!block;n#create_drag_objects#0" />
+                <element signature="e#195110#257223#0" />
+                <marker date="1553274836579" expanded="true" signature="53614:53671" ph="..." />
+                <marker date="1553274836579" expanded="true" signature="58804:58816" ph="..." />
+                <marker date="1553274836579" expanded="true" signature="96086:96143" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminlio/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="73" column="234" selection-start-line="73" selection-start-column="234" selection-end-line="73" selection-end-column="234" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/plantillas_html/form_productos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -172,10 +218,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#base64</find>
-      <find>charge</find>
-      <find>help-dra</find>
-      <find>drag</find>
       <find>dale click</find>
       <find>paint_object_with_64images_noinfo_mfile</find>
       <find>videojs</find>
@@ -202,6 +244,10 @@
       <find>let</find>
       <find>10000</find>
       <find>error</find>
+      <find>troquele</find>
+      <find>result</find>
+      <find>cont-resul</find>
+      <find>results</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -220,7 +266,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/pagos/index.html" />
-        <option value="$PROJECT_DIR$/adminlio/static/css/troquel.css" />
         <option value="$PROJECT_DIR$/adminlio/static/js/forms.js" />
         <option value="$PROJECT_DIR$/templates/plantillas_html/form_troqueles.html" />
         <option value="$PROJECT_DIR$/base/static/js/slider.js" />
@@ -267,9 +312,10 @@
         <option value="$PROJECT_DIR$/adminlio/static/js/adminlio.js" />
         <option value="$PROJECT_DIR$/templates/adminlio/editar_producto.html" />
         <option value="$PROJECT_DIR$/templates/plantillas_html/form_productos.html" />
-        <option value="$PROJECT_DIR$/base/static/js/test_productos.js" />
-        <option value="$PROJECT_DIR$/base/static/js/test_slider.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/base/static/js/test_slider.js" />
+        <option value="$PROJECT_DIR$/base/static/js/test_productos.js" />
+        <option value="$PROJECT_DIR$/adminlio/static/css/troquel.css" />
       </list>
     </option>
   </component>
@@ -291,6 +337,31 @@
             <path>
               <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
               <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="madebylio" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="madebylio" type="b2602c69:ProjectViewProjectNode" />
@@ -336,7 +407,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/gipsy/Escritorio/html5django/julio2018/madebylio/base/static/js/productos.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2019/LEAD_MANAGER_DJANGO_REACT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -705,6 +776,7 @@
       <workItem from="1552783070712" duration="2678000" />
       <workItem from="1552873791868" duration="618000" />
       <workItem from="1553040465667" duration="1039000" />
+      <workItem from="1553269221770" duration="6689000" />
     </task>
     <servers />
   </component>
@@ -741,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229658000" />
+    <option name="totallyTimeSpent" value="236347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,13 +826,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5090498" side_tool="true" weight="0.24861" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49095023" visible="true" weight="0.21069433" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49095023" visible="true" weight="0.21388668" />
       <window_info id="Structure" order="2" weight="0.2530303" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.51157224" side_tool="true" visible="true" weight="0.048859935" />
-      <window_info anchor="bottom" id="File Transfer" order="1" sideWeight="0.4884278" visible="true" weight="0.048701297" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5123703" side_tool="true" visible="true" weight="0.048859935" />
+      <window_info anchor="bottom" id="File Transfer" order="1" sideWeight="0.48762968" visible="true" weight="0.048859935" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49563837" weight="0.31758958" />
       <window_info anchor="bottom" id="manage.py@phixeldev" order="4" weight="0.32868218" />
@@ -824,18 +895,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galeria/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/static/img/proty.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -906,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminlio/static/css/adminlio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/static/img/test-img.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -951,13 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3030">
           <caret line="202" column="22" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminlio/troquel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="12" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -1002,73 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/static/js/test_slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="479" column="65" selection-start-line="479" selection-start-column="65" selection-end-line="479" selection-end-column="65" />
-          <folding>
-            <marker date="1551464930320" expanded="true" signature="7932:7948" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="30182:30239" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="39750:39807" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="55525:55582" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="62383:62399" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="67004:67061" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="74046:74062" ph="..." />
-            <marker date="1551464930320" expanded="true" signature="97089:97146" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminlio/static/js/adminlio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="642" column="12" selection-start-line="642" selection-start-column="12" selection-end-line="643" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/static/js/test_productos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="2008" column="86" selection-start-line="2008" selection-start-column="86" selection-end-line="2008" selection-end-column="86" />
-          <folding>
-            <element signature="n#!!block;n#create_rules#0" />
-            <element signature="n#!!block;n#erase_zone_colors#0" />
-            <element signature="n#!!block;n#detectmob#0" />
-            <element signature="n#!!block;n#save_board_table#0" />
-            <element signature="n#!!block;n#save_board_table_mob#0" />
-            <element signature="n#!!block;n#charge_board_table_mob#0" />
-            <element signature="n#!!block;n#charge_board_table#0" />
-            <element signature="n#!!block;n#getCookie#0" />
-            <element signature="n#!!block;n#setCookie#0" />
-            <element signature="n#!!block;n#deleteCookie#0" />
-            <element signature="n#!!block;n#create_mob_products#0" />
-            <element signature="n#!!block;n#panel_mobile_products#0" />
-            <element signature="n#!!block;n#mobile_category_finder#0" />
-            <element signature="n#!!block;n#change_element_by_mob_matrix_object#0" />
-            <element signature="n#!!block;n#change_element_by_matrix_object#0" />
-            <element signature="n#!!block;n#ajax_show_same_mob_products#0" />
-            <element signature="n#!!block;n#ajax_show_same_products#0" />
-            <element signature="n#!!block;n#ajax_category_finder#0" />
-            <element signature="n#!!block;n#go_section#0" />
-            <element signature="n#!!block;n#crear_table_productos#0" />
-            <element signature="n#!!block;n#crear_table_productos_mobile#0" />
-            <element signature="n#!!block;n#Droppapelera#0" />
-            <element signature="n#!!block;n#delete_file_mob_productos#0" />
-            <element signature="n#!!block;n#delete_file_productos#0" />
-            <element signature="n#!!block;n#update_table_by_matrix#0" />
-            <element signature="n#!!block;n#update_table_by_mob_matrix#0" />
-            <element signature="n#!!block;n#create_file_productos#0" />
-            <element signature="n#!!block;n#create_subtotal_productos#0" />
-            <element signature="n#!!block;n#create_subtotal_productos_mob#0" />
-            <element signature="n#!!block;n#StarDragtopapelera#0" />
-            <element signature="n#!!block;n#create_drag_objects#0" />
-            <marker date="1551463209417" expanded="true" signature="52471:52528" ph="..." />
-            <marker date="1551463209417" expanded="true" signature="57661:57673" ph="..." />
-            <marker date="1551463209417" expanded="true" signature="94943:95000" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1231">
@@ -1086,26 +1064,10 @@
     <entry file="file://$PROJECT_DIR$/base/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="374" selection-start-line="374" selection-end-line="374" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/madebylio/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagos/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,23 +1114,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminlio/models.py">
+    <entry file="file://$PROJECT_DIR$/madebylio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagos/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/madebylio/settings.py">
+    <entry file="file://$PROJECT_DIR$/adminlio/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="107" column="73" lean-forward="true" selection-start-line="107" selection-start-column="73" selection-end-line="107" selection-end-column="73" />
           <folding>
-            <element signature="e#311#320#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/js/test_slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="448" column="12" lean-forward="true" selection-start-line="448" selection-start-column="12" selection-end-line="449" selection-end-column="13" />
+          <folding>
+            <element signature="e#1407#11342#0" />
+            <element signature="e#11560#21278#0" />
+            <element signature="e#46633#75603#0" />
+            <element signature="e#75816#88494#0" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <marker date="1553274480375" expanded="true" signature="7932:7948" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="30246:30303" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="39814:39871" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="55589:55646" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="62447:62463" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="67068:67125" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="74110:74126" ph="..." />
+            <marker date="1553274480375" expanded="true" signature="97153:97210" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/static/js/test_productos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1125" column="74" lean-forward="true" selection-start-line="1125" selection-start-column="74" selection-end-line="1125" selection-end-column="74" />
+          <folding>
+            <element signature="n#!!block;n#create_rules#0" />
+            <element signature="n#!!block;n#erase_zone_colors#0" />
+            <element signature="n#!!block;n#detectmob#0" />
+            <element signature="n#!!block;n#save_board_table#0" />
+            <element signature="n#!!block;n#save_board_table_mob#0" />
+            <element signature="n#!!block;n#charge_board_table_mob#0" />
+            <element signature="n#!!block;n#charge_board_table#0" />
+            <element signature="n#!!block;n#renderPage#0" />
+            <element signature="n#!!block;n#getCookie#0" />
+            <element signature="n#!!block;n#setCookie#0" />
+            <element signature="n#!!block;n#deleteCookie#0" />
+            <element signature="n#!!block;n#create_subcategories#0" />
+            <element signature="n#!!block;n#create_prod2board#0" />
+            <element signature="n#!!block;n#panel_mobile_products#0" />
+            <element signature="n#!!block;n#change_element_by_mob_matrix_object#0" />
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#change_element_by_matrix_object#0" />
+            <element signature="n#!!block;n#ajax_show_same_mob_products#0" />
+            <element signature="n#!!block;n#ajax_show_same_products#0" />
+            <element signature="n#!!block;n#ajax_category_finder#0" />
+            <element signature="n#!!block;n#go_section#0" />
+            <element signature="n#!!block;n#crear_table_productos#0" />
+            <element signature="n#!!block;n#crear_table_productos_mobile#0" />
+            <element signature="n#!!block;n#Droppapelera#0" />
+            <element signature="n#!!block;n#delete_file_mob_productos#0" />
+            <element signature="n#!!block;n#delete_file_productos#0" />
+            <element signature="n#!!block;n#update_table_by_matrix#0" />
+            <element signature="n#!!block;n#update_table_by_mob_matrix#0" />
+            <element signature="n#!!block;n#create_file_productos#0" />
+            <element signature="n#!!block;n#create_subtotal_productos#0" />
+            <element signature="n#!!block;n#create_subtotal_productos_mob#0" />
+            <element signature="n#!!block;n#StarDragtopapelera#0" />
+            <element signature="n#!!block;n#create_drag_objects#0" />
+            <element signature="e#195110#257223#0" />
+            <marker date="1553274836579" expanded="true" signature="53614:53671" ph="..." />
+            <marker date="1553274836579" expanded="true" signature="58804:58816" ph="..." />
+            <marker date="1553274836579" expanded="true" signature="96086:96143" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminlio/troquel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/css/adminlio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/js/adminlio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/js/forms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminlio/static/css/troquel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="317" column="22" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
         </state>
       </provider>
     </entry>

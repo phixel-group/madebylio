@@ -657,7 +657,7 @@ context['webkitImageSmoothingEnabled'] = false; // Safari /
 context['msImageSmoothingEnabled'] = false; // IE
 }
     //LIMPIAR CACHE DE FACEBOOK API GRAPH
-    html2canvas(document.querySelector('#productos-cont-dragdrop'),{width:1200,height:630}).then(
+    html2canvas(document.querySelector('#productos-cont-dragdrop'),{width:500,height:261}).then(
         function(canvas) {
           resultDiv.appendChild(canvas);
 

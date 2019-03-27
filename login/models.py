@@ -9,3 +9,4 @@ class Usuario(User):
     class Meta:
         verbose_name = _('usuario')
         verbose_name_plural = _('usuarios')
+

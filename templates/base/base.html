@@ -374,7 +374,12 @@ function checkLoginState() {
     <div id="sprite-double"></div>
 
 
-
+    <script>
+        $("#check-pinte").on('click',function () {
+            //alert('asdasd');
+           document.querySelector('#a-url').setAttribute('href','http://www.pinterest.com/pin/create/button/?url=' + encodeURIComponent($(location).attr("href")) + '&media=' + encodeURIComponent("https://localhost:8000/static/img/a_t2.png") + '&description=' + encodeURIComponent("test a image"));
+        });
+    </script>
     <script type="text/javascript" src="{% static 'js/skrollr.min.js' %}"></script>
      <script type="text/javascript" src="{% static 'js/base.js' %}"></script>
     <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>

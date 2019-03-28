@@ -642,7 +642,7 @@ function charge_board_table(board,table,same_products)
         create_rules(reglas[escala],v_reglas[escala],escala,reglas,v_reglas,distancia,v_distancia);
     }
 }
-function renderPage(){
+function renderPage(type){
         var canvita = '';
     'use strict';
     var resultDiv = document.getElementById('previewImage');
@@ -673,6 +673,20 @@ context['msImageSmoothingEnabled'] = false; // IE
           }
 
           setTimeout(function () {
+              //dependiendo del tipo de red social solicitada se hace una acciom
+              var type_social = document.querySelector('#info-share-social');
+              if(type=='face')
+              {
+                  document.querySelector('#info-share-social').typesocial = 'face';
+              }
+              else if(type == 'pinte')
+              {
+                  document.querySelector('#info-share-social').typesocial = 'pinterest';
+              }
+              else
+                  {
+
+                  }
               $('#base64').trigger('submit');
           },1000);
           //resultDiv.appendChild(document.createTextNode("Tainted: " + tainted));
@@ -4715,7 +4729,7 @@ window.onload = function () {
 
             return false;
             });*/
-
+            console.log(document.querySelector('#info-share-social').estado);
             //base 64 convert
             $('#base64').on('submit',function (e) {
                 e.preventDefault();
@@ -4735,9 +4749,24 @@ window.onload = function () {
                          success: function (data) {
                              //alert('Redirigiendo a pagos');
                                 //alert(data.archivo);
-                                shareOverrideOGMeta('https://madebylio.com/','Made By Lio',gettext('Contemporany products for home'),'https://madebylio.com'+data.archivo);
+                               var typesocial = document.querySelector('#info-share-social').typesocial;
+                               console.log('es social ' + typesocial);
+                               if(typesocial == 'face')
+                               {
+                                    shareOverrideOGMeta('https://madebylio.com/','Made By Lio',gettext('Contemporany products for home'),'https://madebylio.com'+data.archivo);
+
+                               }
+                               else
+                               {
+
+                                   document.querySelector('#a-url').setAttribute('href','http://www.pinterest.com/pin/create/button/?url=' + encodeURIComponent($(location).attr("href")) + '&media=' + encodeURIComponent("https://madebylio.com" + data.archivo) + '&description=' + encodeURIComponent("test a image"));
+                                   $('#a-url').click();
+                                   console.log('aaasdeasd');
+                               }
+                                //(shareOverrideOGMeta('https://madebylio.com/','Made By Lio',gettext('Contemporany products for home'),'https://madebylio.com'+data.archivo);
                             //alert(data.test.test_id);
-                             console.log(data.archivo);
+                                console.log(data.archivo);
+
                              //document.querySelector('#formtroquel').reset();
                          },
                          // handle a non-successful response
@@ -5482,18 +5511,21 @@ window.onload = function () {
 
 
 
-
+    //boton de facebook
 	$("#btn-Convert-Html2Image").on('click', function (e) {
 	    e.preventDefault();
         /*html2canvas(document.querySelector('#productos-cont-dragdrop'),{allowTaint: true}).then(function (canvas) {
             document.querySelector('#previewImage').appendChild(canvas);
         });*/
 
-            renderPage();
+            renderPage('face');
         return false;
 
     });
-
+    $('#pinte-button').on('click', function(){
+        console.log('pinterest');
+       renderPage('pinte');
+    });
 	//CANVAS CARGADO Y LISTO PARA  COMPARTIR
          $('canvas#canvons').on('load',function () {
              alert('asdasd');

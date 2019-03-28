@@ -4760,8 +4760,11 @@ window.onload = function () {
                                {
 
                                    document.querySelector('#a-url').setAttribute('href','http://www.pinterest.com/pin/create/button/?url=' + encodeURIComponent($(location).attr("href")) + '&media=' + encodeURIComponent("https://madebylio.com" + data.archivo) + '&description=' + encodeURIComponent("test a image"));
-                                   $('#a-url').click();
-                                   console.log('aaasdeasd');
+                                   //$('#a-url').click();
+                                   //console.log('aaasdeasd');
+
+                                   $('.sk-cube-grid').fadeOut(50);
+                                   $('#a-url').fadeIn(500);
                                }
                                 //(shareOverrideOGMeta('https://madebylio.com/','Made By Lio',gettext('Contemporany products for home'),'https://madebylio.com'+data.archivo);
                             //alert(data.test.test_id);
@@ -4774,6 +4777,11 @@ window.onload = function () {
                              alert(errmsg);
                          }
                      });
+            });
+            //LINK DE SHARE PINTEREST
+            $('#a-url').on('click',function(){
+               $('#cont-loader-social').fadeOut(500);
+                $('#a-url').fadeOut(500);
             });
             //INCIALIZAMOS VIDEO
             var myPlayer = videojs("video-large");
@@ -5525,6 +5533,8 @@ window.onload = function () {
     $('#pinte-button').on('click', function(){
         console.log('pinterest');
        renderPage('pinte');
+       $('#cont-loader-social').fadeIn(200);
+       $('.sk-cube-grid').fadeIn(200);
     });
 	//CANVAS CARGADO Y LISTO PARA  COMPARTIR
          $('canvas#canvons').on('load',function () {

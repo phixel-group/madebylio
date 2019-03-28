@@ -150,9 +150,7 @@
     <a id="btn-Convert-Html2Image" style="position: absolute;top:85.9%;left: 15%;width:10%;height:5%; text-decoration: none" href="#"><img style=" width: 100%; height:auto;" src="{% static 'img/png/productos/botones/buttonfacebook.png' %}">
         <div style="position: absolute;top: 55%;left: 38%;color:white;font-size: 0.8vw;">{% trans 'Share' %}</div>
     </a>
-    <a id="a-url" href="" target="_blank" style="position: absolute;top: 85.1%;left: 10%;width:3%;height:5%; text-decoration: none">
-        asdasd
-    </a>
+
     <img id="pinte-button" style="cursor: pointer;position: absolute;top:87.1%;left: 10%;width:3.2%;height:6%;" src="{%  static 'img/png/pinterest.png' %}">
     <!--<div id="svg2canvas" style="position: absolute;top:20%;left: 60%;">svg2canvas</div>-->
 
@@ -202,6 +200,23 @@
     <!--<div id="test-face-share" style="position: absolute; left: 50%;right: 2000%;">
         share joyería
     </div>-->
+    <div id="cont-loader-social" style="width: 15%; height: 25%; display: none;background-color: white; border-radius: 10px;position:absolute; left:26%;top:45%">
+        <div class="sk-cube-grid">
+              <div class="sk-cube sk-cube1"></div>
+              <div class="sk-cube sk-cube2"></div>
+              <div class="sk-cube sk-cube3"></div>
+              <div class="sk-cube sk-cube4"></div>
+              <div class="sk-cube sk-cube5"></div>
+              <div class="sk-cube sk-cube6"></div>
+              <div class="sk-cube sk-cube7"></div>
+              <div class="sk-cube sk-cube8"></div>
+              <div class="sk-cube sk-cube9"></div>
+        </div>
+        <a id="a-url" href="" target="_blank" style="position: absolute;top: 50%;left: 50%;width:auto;height:auto; text-decoration: none; font-size: 1.2vw;color: #ffffff; background-color: #fd445d;transform: translate(-50%,-50%);padding: 5px;
+border-radius: 5px;display: none;">
+            {% trans 'Share' %}
+        </a>
+    </div>
 
     <div id="test-ajax" style="position:absolute;background-color: red; left: 50%;top:50%; display:none">
                 asdasd
